@@ -1,0 +1,5 @@
+
+DELAY 1000
+STRING $IP=Read-Host "Enter IP"; $Intensity=Read-Host "Intensity 0-9"; if($Intensity -notmatch '^[0-9]$'){throw "Intensity must be 0-9"}; nmap -sV --version-intensity $Intensity $IP
+ENTER
+

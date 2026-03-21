@@ -1,0 +1,4 @@
+REM Activar servicio VSS (instantáneas)
+DELAY 1000
+STRING Set-Service -Name "VSS" -StartupType Automatic; Start-Service -Name "VSS"
+ENTER

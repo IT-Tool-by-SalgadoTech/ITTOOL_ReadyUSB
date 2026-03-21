@@ -1,0 +1,3 @@
+DELAY 1500
+STRING $opt=Read-Host '1) Go to Bios (/fw)  2) WinRe (/o)'; if($opt -eq '1'){Start-Process shutdown.exe -Verb RunAs -ArgumentList '/r /fw /t 0'} else {Start-Process shutdown.exe -Verb RunAs -ArgumentList '/r /o /t 0'}
+ENTER

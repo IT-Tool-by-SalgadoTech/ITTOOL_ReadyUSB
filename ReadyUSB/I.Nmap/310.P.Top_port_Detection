@@ -1,0 +1,5 @@
+
+DELAY 1000
+STRING $IP=Read-Host "Enter IP"; $ports=Read-Host "Number of Ports 10,20,50,100,1000"; nmap --top-ports $ports -sV $IP
+ENTER
+

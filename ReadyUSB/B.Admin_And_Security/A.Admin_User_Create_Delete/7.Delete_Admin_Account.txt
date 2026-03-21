@@ -1,0 +1,4 @@
+REM ReadyUSB - Rename files in folder with numerical prefix
+DELAY 1500
+STRING $user=Read-Host "Enter the username to delete"; net user $user /delete
+ENTER
