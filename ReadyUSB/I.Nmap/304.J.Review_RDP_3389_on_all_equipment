@@ -1,0 +1,5 @@
+
+DELAY 1000
+STRING $IP_Gateway=Read-Host "Enter IP_Gateway"; $prefix=Read-Host "prefix"; nmap -p 3389 "$IP_Gateway"/"$prefix"
+ENTER
+

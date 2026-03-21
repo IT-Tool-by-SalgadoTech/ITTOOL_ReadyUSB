@@ -1,0 +1,5 @@
+
+DELAY 1000
+STRING $IP=Read-Host "Enter IP"; $prefix=Read-Host "prefix"; nmap "$IP"/"$prefix"
+ENTER
+

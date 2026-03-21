@@ -1,0 +1,5 @@
+REM Oculta contenido de carpeta (archivos y subdirectorios) usando atributos +R +H
+REM Solicita la ruta de la carpeta
+DELAY 1500
+STRING cmd /V:ON /C "SET /P folderPath=Enter full folder path: && attrib -R +H !folderPath!\*.* /S /D"
+ENTER

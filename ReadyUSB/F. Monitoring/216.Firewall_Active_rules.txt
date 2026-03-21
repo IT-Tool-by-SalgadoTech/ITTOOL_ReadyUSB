@@ -1,0 +1,4 @@
+REM Ver reglas de firewall
+DELAY 1000
+STRING Get-NetFirewallRule | Where-Object {$_.Enabled -eq 'True'}
+ENTER
