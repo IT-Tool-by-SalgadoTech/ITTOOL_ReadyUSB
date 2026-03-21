@@ -1,5 +1,0 @@
-
-DELAY 1000
-STRING $IP=Read-Host "Enter IP"; $ports=Read-Host "ports"; nmap -sU -p "$ports" "$IP"
-ENTER
-
