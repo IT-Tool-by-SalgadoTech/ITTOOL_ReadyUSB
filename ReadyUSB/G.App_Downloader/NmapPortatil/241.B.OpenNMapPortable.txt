@@ -1,0 +1,13 @@
+REM opem NmapPortable
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1000
+STRING Start-Process "C:\Users\chefm\Desktop\NmapPortable\NmapPortable.exe"
+ENTER

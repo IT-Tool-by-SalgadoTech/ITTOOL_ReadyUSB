@@ -1,0 +1,3 @@
+DELAY 1000
+STRING $env:Path=[Environment]::GetEnvironmentVariable("Path","Machine")+";"+[Environment]::GetEnvironmentVariable("Path","User"); where.exe nmap; nmap --version
+ENTER

@@ -1,0 +1,3 @@
+DELAY 1500
+STRING $p=Get-Process|Sort-Object Name;for($i=0;$i -lt $p.Count;$i++){Write-Host "$i - $($p[$i].Name).exe"};$choice=Read-Host "Enter number of process to kill";$name=$p[$choice].Name;Stop-Process -Name $name -Force
+ENTER

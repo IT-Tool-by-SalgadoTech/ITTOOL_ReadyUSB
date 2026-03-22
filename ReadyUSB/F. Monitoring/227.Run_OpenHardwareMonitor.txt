@@ -1,0 +1,4 @@
+REM Ejecuta OHM si ya está instalado
+DELAY 1000
+STRING Start-Process "$env:USERPROFILE\Desktop\HWMonitorPortable\HWMonitorPortable.exe"
+ENTER
