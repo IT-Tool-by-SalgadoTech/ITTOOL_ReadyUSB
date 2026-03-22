@@ -1,4 +1,0 @@
-REM Mostrar todas las reglas del firewall como administrador
-DELAY 1000
-STRING Get-NetFirewallRule | ForEach-Object { $r=$_; $pf=Get-NetFirewallPortFilter -AssociatedNetFirewallRule $r -ErrorAction SilentlyContinue; [pscustomobject]@{DisplayName=$r.DisplayName;Direction=$r.Direction;Action=$r.Action;Enabled=$r.Enabled;Profile=$r.Profile;LocalPort=($pf.LocalPort -join ',')}} | Format-Table -AutoSize
-ENTER

@@ -1,8 +1,0 @@
-DELAY 1000
-GUI r
-DELAY 1000
-STRING powershell
-ENTER
-DELAY 1500
-STRING powershell -NoProfile -ExecutionPolicy Bypass -Command 'Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match ''HID\\'' -or $_.Class -eq ''HIDClass'' } | Where-Object { $_.FriendlyName -match ''keyboard|teclado|mouse|ratón'' -or $_.Class -eq ''Keyboard'' -or $_.Class -eq ''Mouse'' } | ForEach-Object { if ($_.InstanceId -match ''VID_([0-9A-F]{4}).*PID_([0-9A-F]{4})'') { [pscustomobject]@{ Name=$_.FriendlyName; Class=$_.Class; VID=$matches[1]; PID=$matches[2]; InstanceId=$_.InstanceId; Status=$_.Status } } } | Sort-Object Class,Name | Format-Table -AutoSize'
-ENTER

@@ -1,4 +1,0 @@
-REM Restaurar frecuencia de puntos de restauración a 24h
-DELAY 1000
-STRING Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" -Name "SystemRestorePointCreationFrequency" -Value 1440 -Type DWord
-ENTER

@@ -1,3 +1,0 @@
-DELAY 4000
-STRING $u="https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/Folder_tree.py"; $d="$env:USERPROFILE\Desktop\Folder_tree.py"; Invoke-WebRequest -Uri $u -OutFile $d
-ENTER

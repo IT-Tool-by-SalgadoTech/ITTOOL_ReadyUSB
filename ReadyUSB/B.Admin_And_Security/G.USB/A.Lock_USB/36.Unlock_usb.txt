@@ -1,3 +1,0 @@
-DELAY 1500
-STRING Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR' -Name Start -Type DWord -Value 3
-ENTER
