@@ -1,0 +1,3 @@
+DELAY 1000
+STRING $IP = Read-Host "Enter IP"; nmap -sT -v -v --reason "$IP"
+ENTER
