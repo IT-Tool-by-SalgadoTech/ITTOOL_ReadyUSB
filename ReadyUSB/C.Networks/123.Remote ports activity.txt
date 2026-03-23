@@ -1,3 +1,0 @@
-DELAY 1500
-STRING $cn=Get-NetTCPConnection -State Established|Where-Object{$_.RemoteAddress-ne'127.0.0.1'-and$_.RemoteAddress-ne$_.LocalAddress};if(-not$cn){Write-Host"No hay conexiones TCP remotas establecidas.";return}
-ENTER

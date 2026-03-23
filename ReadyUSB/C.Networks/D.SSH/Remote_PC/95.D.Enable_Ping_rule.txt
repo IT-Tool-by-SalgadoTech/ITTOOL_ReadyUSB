@@ -1,3 +1,0 @@
-DELAY 1500
-STRING Enable-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv4-In)"
-ENTER

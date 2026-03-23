@@ -1,3 +1,0 @@
-DELAY 1000
-STRING pip install -r requirements.txt 
-ENTER

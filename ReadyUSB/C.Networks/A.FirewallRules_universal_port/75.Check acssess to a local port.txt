@@ -1,4 +1,0 @@
-REM Verifica si un puerto está abierto o bloqueado por el firewall en localhost
-DELAY 1500
-STRING $port=Read-Host "Enter port to test"; Test-NetConnection -ComputerName localhost -Port $port
-ENTER
