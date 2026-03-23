@@ -1,4 +1,0 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 500
-STRING Remove-NetFirewallRule -DisplayName "Allow RDP"
-ENTER
