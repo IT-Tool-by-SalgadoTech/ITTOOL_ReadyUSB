@@ -1,0 +1,11 @@
+DELAY 1000
+GUI r
+DELAY 1500
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1500
+STRING $u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/FanControl_229_net_4_8.zip';$dl="$env:USERPROFILE\Downloads";$desk=[Environment]::GetFolderPath('Desktop');$z=Join-Path $dl 'FanControl_229_net_4_8.zip';$dst=Join-Path $desk 'FanControl_229_net_4_8';Remove-Item $dst -Recurse -Force -ErrorAction SilentlyContinue;Invoke-WebRequest -Uri $u -OutFile $z;Expand-Archive -Path $z -DestinationPath $dst -Force;$exe=$null;for($i=0;$i -lt 20 -and -not $exe;$i++){Start-Sleep -Milliseconds 500;$exe=(Get-ChildItem -Path $dst -Recurse -Filter 'FanControl.exe' -File -ErrorAction SilentlyContinue|Select-Object -First 1).FullName};if(-not $exe){Write-Host '❌ FanControl.exe no encontrado';exit};Unblock-File -Path $exe -ErrorAction SilentlyContinue;if(Get-Item $exe -Stream 'Zone.Identifier' -ErrorAction SilentlyContinue){Remove-Item $exe -Stream 'Zone.Identifier' -Force -ErrorAction SilentlyContinue};Start-Process -FilePath $exe -WorkingDirectory (Split-Path $exe -Parent) -Verb runAs
+ENTER

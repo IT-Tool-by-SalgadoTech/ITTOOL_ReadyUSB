@@ -1,0 +1,6 @@
+REM Delete a shared folder (interactivo ReadyUSB)
+REM Abrir CMD como administrador
+REM Solicitar el nombre del recurso compartido e intentar eliminarlo
+DELAY 1500
+STRING cmd /V:ON /C "SET /P PublicShare=Enter shared folder name to delete: && net share !PublicShare! /delete"
+ENTER
