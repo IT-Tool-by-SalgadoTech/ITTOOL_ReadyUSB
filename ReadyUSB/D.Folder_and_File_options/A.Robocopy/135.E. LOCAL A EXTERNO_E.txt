@@ -1,5 +1,0 @@
-REM LOCAL A EXTERNO_E - Copia de local a red (ReadyUSB interactivo)
-REM Solicita rutas origen y destino
-DELAY 1500
-STRING $source=Read-Host "Enter local source path"; $destination=Read-Host "Enter network destination (e.g. \\IP\Share)"; robocopy $source $destination /E
-ENTER

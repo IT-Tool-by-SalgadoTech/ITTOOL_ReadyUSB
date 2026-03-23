@@ -1,4 +1,0 @@
-REM Ver programas de inicio
-DELAY 1000
-STRING Get-CimInstance Win32_StartupCommand | Select-Object Name,Command,Location
-ENTER

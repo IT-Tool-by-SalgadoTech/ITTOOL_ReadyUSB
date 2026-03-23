@@ -1,4 +1,0 @@
-REM Ver drivers instalados
-DELAY 1000
-STRING Get-WmiObject Win32_PnPSignedDriver | Select-Object DeviceName,DriverVersion,Manufacturer
-ENTER
