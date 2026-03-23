@@ -1,0 +1,4 @@
+REM NUMBER IP
+DELAY 1500
+STRING $u=Read-Host "Enter website or URL";$h=($u -replace '^https?://','' -replace '/.*','');try{[System.Net.Dns]::GetHostAddresses($h)|%{Write-Host "IP Address:" $_}}catch{Write-Host "❌ Could not resolve address."}
+ENTER

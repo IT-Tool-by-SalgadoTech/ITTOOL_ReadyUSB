@@ -1,0 +1,6 @@
+REM Launch powershell
+DELAY 1000
+GUI r
+DELAY 300
+STRING powershell
+ENTER
