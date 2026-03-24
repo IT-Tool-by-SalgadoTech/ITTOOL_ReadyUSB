@@ -1,4 +1,0 @@
-REM Ver últimos eventos del sistema
-DELAY 1000
-STRING Get-EventLog -LogName System -EntryType Error -Newest 10
-ENTER

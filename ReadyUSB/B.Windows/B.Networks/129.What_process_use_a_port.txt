@@ -1,4 +1,0 @@
-REM Ver el proceso que está usando un puerto específico
-DELAY 1500
-STRING $port=Read-Host "Enter port to inspect"; Get-Process -Id (Get-NetTCPConnection -LocalPort $port).OwningProcess
-ENTER

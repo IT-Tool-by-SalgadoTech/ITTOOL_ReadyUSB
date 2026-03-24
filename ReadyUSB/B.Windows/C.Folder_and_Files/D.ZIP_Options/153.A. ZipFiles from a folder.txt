@@ -1,5 +1,0 @@
-REM ZipFiles from a folder (ReadyUSB interactivo)
-REM Comprimir archivos individualmente desde carpeta de origen a destino
-DELAY 1500
-STRING $sourceFolder=Read-Host "Enter source folder"; $destinationFolder=Read-Host "Enter destination folder"; if (-not (Test-Path $destinationFolder)) { New-Item -ItemType Directory -Path $destinationFolder }; Get-ChildItem -Path $sourceFolder -File | ForEach-Object { $file = $_; $zipName = "$destinationFolder\$($file.BaseName).zip"; Compress-Archive -Path $file.FullName -DestinationPath $zipName -Force }; Write-Host "¡Listo! Todos los archivos fueron comprimidos por separado."
-ENTER
