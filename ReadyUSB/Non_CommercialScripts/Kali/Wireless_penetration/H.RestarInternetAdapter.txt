@@ -1,0 +1,4 @@
+DELAY 800
+STRING printf "NETWORK_NAME: "; read NETWORK_NAME; cmd="sudo airmon-ng check kill; sudo iw dev $NETWORK_NAME set type managed; sudo ip link set $NETWORK_NAME up; sudo systemctl restart NetworkManager"; print -z -- "$cmd"
+DELAY 1800
+ENTER

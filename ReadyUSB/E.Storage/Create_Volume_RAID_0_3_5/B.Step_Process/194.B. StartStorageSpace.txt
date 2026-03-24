@@ -1,0 +1,4 @@
+REM HWMonitor Portable: descarga, instalación silenciosa y ejecución (elevado)
+DELAY 1800
+STRING Get-Service -Name StorSvc | Start-Service
+ENTER

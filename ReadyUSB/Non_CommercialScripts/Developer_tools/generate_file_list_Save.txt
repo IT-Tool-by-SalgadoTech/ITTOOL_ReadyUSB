@@ -1,0 +1,10 @@
+DELAY 4000
+STRING $u="https://github.com/IT-Tool-by-SalgadoTech/ITTOOL_Developer_Tools/raw/refs/heads/main/ITTOOL_TOOLS/generate_file_list.py"; $d="$env:USERPROFILE\Desktop\generate_file_list.py"; Invoke-WebRequest -Uri $u -OutFile $d
+ENTER
+DELAY 2000
+STRING cd "$env:USERPROFILE\Desktop"
+DELAY 1000
+ENTER
+DELAY 1500
+STRING python .\generate_file_list.py
+ENTER

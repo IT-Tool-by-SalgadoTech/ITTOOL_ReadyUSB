@@ -1,0 +1,3 @@
+DELAY 1500
+STRING $path=Read-Host "Enter folder path"; Get-ChildItem -LiteralPath $path -File | ForEach-Object { $bn=$_.BaseName; $ext=$_.Extension; $dir=$_.DirectoryName; $core=[regex]::Replace($bn,'^\s*\p{L}+\.\s*',''); if($core -eq $bn){return}; $cand="$core$ext"; $n=1; while(Test-Path (Join-Path $dir $cand)){$cand="$core ($n)$ext";$n++}; Rename-Item -LiteralPath $_.FullName -NewName $cand -Force }
+ENTER 

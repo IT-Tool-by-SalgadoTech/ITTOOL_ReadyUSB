@@ -1,0 +1,11 @@
+DELAY 1000
+GUI r
+DELAY 1500
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1800
+STRING $u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/mediacreationtool.exe';$d=Join-Path $env:TEMP ("MediaCreationTool_{0}.exe" -f ([guid]::NewGuid().ToString('N')));Invoke-WebRequest -Uri $u -OutFile $d;Start-Process $d
+ENTER 
