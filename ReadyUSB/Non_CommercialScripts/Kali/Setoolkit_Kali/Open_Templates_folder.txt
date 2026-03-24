@@ -1,6 +1,0 @@
-DELAY 800
-CTRL ALT T
-DELAY 2000
-STRING sudo xdg-open /usr/share/set/src/html/templates
-DELAY 1000
-ENTER

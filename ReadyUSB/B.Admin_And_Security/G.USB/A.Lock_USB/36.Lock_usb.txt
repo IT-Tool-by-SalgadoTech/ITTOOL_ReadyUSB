@@ -1,3 +1,0 @@
-DELAY 1500
-STRING powershell -Command "Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR' -Name 'Start' -Value 4"
-ENTER

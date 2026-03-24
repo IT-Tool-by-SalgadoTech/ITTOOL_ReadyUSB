@@ -1,3 +1,0 @@
-DELAY 1000
-STRING $path = Read-Host "Enter the file path"; & $path --version
-ENTER

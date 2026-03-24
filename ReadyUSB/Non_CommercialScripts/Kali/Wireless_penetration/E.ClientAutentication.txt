@@ -1,4 +1,0 @@
-DELAY 800
-STRING printf "DEAUTH: "; read DEAUTH; printf "BSSID: "; read BSSID; printf "STATION: "; read STATION; cmd="sudo aireplay-ng --deauth $DEAUTH -a $BSSID -c $STATION wlan1"; print -z -- "$cmd"
-DELAY 1800
-ENTER
