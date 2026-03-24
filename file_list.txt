@@ -1,5 +1,5 @@
 ReadyUSB/ReadyUsb_ManualPDF_Windows.txt
-ReadyUSB/Welcome_ReadyUsb_ManualPDF_Linux.txt
+ReadyUSB/ReadyUsb_ManualPDF_Linux.txt
 ReadyUSB/A.Consoles/A.Powershell/1.Powershell_Admin.txt
 ReadyUSB/A.Consoles/A.Powershell/3.Powershell.txt
 ReadyUSB/A.Consoles/B.Linux/2.Open_Privileged_Console.txt
