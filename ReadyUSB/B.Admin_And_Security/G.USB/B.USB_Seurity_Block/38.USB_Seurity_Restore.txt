@@ -1,3 +1,0 @@
-DELAY 1500
-STRING powershell -ExecutionPolicy Bypass -Command "Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR' -Name 'Start' -Value 3;Remove-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions' -Name 'DenyUnspecified' -ErrorAction SilentlyContinue;Remove-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions' -Name 'DenyNewUSBDevices' -ErrorAction SilentlyContinue;gpupdate /target:computer /force;Write-Host 'USB relaxed: storage and devices allowed again.'"
-ENTER

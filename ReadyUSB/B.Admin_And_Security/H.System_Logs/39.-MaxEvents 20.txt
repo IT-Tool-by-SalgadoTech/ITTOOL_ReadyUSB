@@ -1,4 +1,0 @@
-REM Ver últimos eventos del sistema
-DELAY 1000
-STRING Get-WinEvent -LogName System -MaxEvents 20
-ENTER
