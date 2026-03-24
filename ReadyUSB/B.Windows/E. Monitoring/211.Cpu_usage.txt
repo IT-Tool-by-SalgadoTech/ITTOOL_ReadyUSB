@@ -1,0 +1,3 @@
+DELAY 1000
+STRING Get-Counter '\Processor(_Total)\% Processor Time'
+ENTER

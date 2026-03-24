@@ -1,0 +1,3 @@
+DELAY 1000
+STRING $f=Read-Host "Enter file path";$a=(Read-Host "Algorithm MD5 SHA1 SHA256 SHA384 SHA512").ToUpper();if($a -in "MD5","SHA1","SHA256","SHA384","SHA512"){Get-FileHash -LiteralPath $f -Algorithm $a | Format-List Algorithm,Hash,Path}else{Write-Host "Invalid algorithm"}
+ENTER

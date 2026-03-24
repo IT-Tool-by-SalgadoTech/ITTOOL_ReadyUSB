@@ -1,0 +1,4 @@
+REM Ver estado de protección de sistema en unidades
+DELAY 1000
+STRING Get-ComputerRestorePoint
+ENTER
