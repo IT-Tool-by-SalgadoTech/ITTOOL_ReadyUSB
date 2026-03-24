@@ -1,0 +1,4 @@
+REM Ejecutar netstat -ab desde PowerShell como administrador
+DELAY 1000
+STRING Get-NetAdapter | Where-Object { $_.Name -match 'wi-?fi|wireless|wlan' -and $_.Status -eq 'Up' } | Disable-NetAdapter -Confirm:$false
+ENTER

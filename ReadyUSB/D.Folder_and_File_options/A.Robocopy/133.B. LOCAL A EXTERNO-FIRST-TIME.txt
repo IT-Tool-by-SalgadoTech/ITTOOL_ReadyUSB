@@ -1,0 +1,5 @@
+REM Robocopy de archivos en red incluyendo carpetas vacías (/E), de local a externo
+REM Solicita rutas de origen y destino, luego ejecuta Robocopy con /E
+DELAY 1500
+STRING $source=Read-Host "Enter source folder path"; $destination=Read-Host "Enter network destination (e.g. \\IP\share)"; robocopy $source *.* $destination /E
+ENTER

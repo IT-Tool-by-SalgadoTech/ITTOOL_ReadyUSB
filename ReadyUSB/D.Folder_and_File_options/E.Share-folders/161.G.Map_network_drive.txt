@@ -1,0 +1,3 @@
+DELAY 4000
+STRING $unc=Read-Host "UNC (e.g. \\SERVER\Share)"; $l=(Read-Host "Drive letter (e.g. Z)").TrimEnd(':').ToUpper(); if([string]::IsNullOrWhiteSpace($unc) -or [string]::IsNullOrWhiteSpace($l)){Write-Host "Invalid input"; exit}; $dl="${l}:"; cmd /c "net use $dl /delete /y" | Out-Null; cmd /c "net use \\$((($unc -replace '^[\\]+','') -split '\\')[0])\* /delete /y" | Out-Null; Remove-Item ("HKCU:\Network\$l") -Recurse -Force -ErrorAction SilentlyContinue; if(-not (Test-Path $unc)){Write-Host "UNC not reachable: $unc"; exit}; cmd /c "net use $dl `"$unc`" /persistent:yes" | Out-Null; if($LASTEXITCODE -ne 0){Write-Host "Map failed"; cmd /c "net use"; exit}; Start-Process explorer.exe $dl; Write-Host ("Mapped "+$dl+" to "+$unc)
+ENTER

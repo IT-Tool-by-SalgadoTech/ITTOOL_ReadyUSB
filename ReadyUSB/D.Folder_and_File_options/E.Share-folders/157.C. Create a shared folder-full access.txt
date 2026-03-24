@@ -1,0 +1,5 @@
+REM Crear carpeta compartida con acceso para Everyone (interactivo ReadyUSB)
+REM Solicita la ruta de la carpeta y nombre del recurso compartido
+DELAY 1500
+STRING cmd /V:ON /C "SET /P folder=Enter folder path to share: && SET /P share_name=Enter shared name: && net share !share_name!=!folder! /grant:Everyone,full"
+ENTER
