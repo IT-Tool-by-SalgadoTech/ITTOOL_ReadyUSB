@@ -1,3 +1,0 @@
-DELAY 1500
-STRING Write-Host "`nCurrent logged-on sessions:`n" -ForegroundColor Cyan; query user; $sessionID = Read-Host "`nEnter the User ID (Session ID) to log off"; Write-Host "`nLogging off session ID $sessionID ..." -ForegroundColor Yellow; logoff $sessionID; Write-Host "Done." -ForegroundColor Green
-ENTER 

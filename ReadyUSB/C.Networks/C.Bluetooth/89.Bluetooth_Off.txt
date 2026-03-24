@@ -1,4 +1,0 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 1000
-STRING $g='{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}'; Get-PnpDevice | Where-Object { $_.ClassGuid -eq $g -and $_.Status -eq 'OK' } | ForEach-Object { Disable-PnpDevice -InstanceId $_.InstanceId -Confirm:$false -ErrorAction SilentlyContinue }; Stop-Service bthserv -ErrorAction SilentlyContinue
-ENTER

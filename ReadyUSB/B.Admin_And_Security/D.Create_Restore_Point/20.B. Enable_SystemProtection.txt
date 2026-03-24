@@ -1,4 +1,0 @@
-REM Habilitar protección del sistema para C:
-DELAY 1000
-STRING Enable-ComputerRestore -Drive "C:\"
-ENTER
