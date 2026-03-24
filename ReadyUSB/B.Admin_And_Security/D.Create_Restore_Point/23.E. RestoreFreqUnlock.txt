@@ -1,4 +1,0 @@
-REM Eliminar la restricción de 24h para crear puntos de restauración
-DELAY 1500
-STRING Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" -Name "SystemRestorePointCreationFrequency" -Value 0 -Type DWord
-ENTER

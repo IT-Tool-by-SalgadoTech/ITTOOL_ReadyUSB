@@ -1,3 +1,0 @@
-DELAY 1500
-STRING $ruta=Read-Host "Enter the folder path to rename files"; $start=[int](Read-Host "Enter the starting number"); $i=$start; Get-ChildItem -LiteralPath $ruta -File | Sort-Object Name | ForEach-Object{ Rename-Item -LiteralPath $_.FullName -NewName ("{0}.{1}" -f $i,$_.Name); $i++ }; Write-Host "✅ Files have been renamed starting from number $start."
-ENTER 

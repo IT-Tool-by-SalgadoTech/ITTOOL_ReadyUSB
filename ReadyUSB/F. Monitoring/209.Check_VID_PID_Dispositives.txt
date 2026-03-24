@@ -1,3 +1,0 @@
-DELAY 1500
-STRING $r=[regex]'VID_([0-9A-F]{4})&PID_([0-9A-F]{4})'; Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match 'VID_' } | ForEach-Object { $m=$r.Match($_.InstanceId); if($m.Success){ [pscustomobject]@{ Name=$_.FriendlyName; VID=$m.Groups[1].Value; PID=$m.Groups[2].Value } } } | Format-Table -AutoSize
-ENTER
