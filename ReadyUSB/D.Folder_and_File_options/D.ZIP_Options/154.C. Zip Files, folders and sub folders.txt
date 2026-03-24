@@ -1,0 +1,4 @@
+REM Compress files and folders separately into individual ZIPs (ReadyUSB)
+DELAY 1500
+STRING $sourceFolder=Read-Host "Enter the source folder path"; $destinationFolder=Read-Host "Enter the destination folder path for the ZIP files"; if (-not (Test-Path $destinationFolder)) { New-Item -ItemType Directory -Path $destinationFolder }; Get-ChildItem -Path $sourceFolder -File | ForEach-Object { $file = $_; $zipName = "$destinationFolder\$($file.BaseName).zip"; Compress-Archive -Path $file.FullName -DestinationPath $zipName -Force }; Get-ChildItem -Path $sourceFolder -Directory | ForEach-Object { $folder = $_; $zipName = "$destinationFolder\$($folder.Name).zip"; Compress-Archive -Path $folder.FullName -DestinationPath $zipName -Force }; Write-Host "✅ Files and folders have been compressed separately."
+ENTER

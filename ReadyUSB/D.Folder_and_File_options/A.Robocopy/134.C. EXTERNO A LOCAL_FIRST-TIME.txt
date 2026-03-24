@@ -1,0 +1,6 @@
+REM ARCHIVOS EN RED - COPIA TODO INCLUYENDO CARPETAS VACÍAS - NO BORRA FILES EN EL DESTINO /E
+REM DESDE EXTERNO A LOCAL (ReadyUSB)
+REM Solicita rutas y copia interactivamente
+DELAY 1500
+STRING $source=Read-Host "Enter source path (e.g. \\IP\Share)"; $destination=Read-Host "Enter destination path"; robocopy $source $destination /E
+ENTER
