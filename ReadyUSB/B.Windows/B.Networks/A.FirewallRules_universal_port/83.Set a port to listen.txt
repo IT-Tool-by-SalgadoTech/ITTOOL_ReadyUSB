@@ -1,0 +1,4 @@
+REM Listener universal interactivo para que el puerto aparezca en netstat -ano
+DELAY 1500
+STRING $port=Read-Host "Enter port to listen on"; $listener = [System.Net.Sockets.TcpListener]::new([IPAddress]::Any, $port); $listener.Start(); Write-Host "🟢 Listening on port $port..."; while ($true) { Start-Sleep -Seconds 1 }
+ENTER

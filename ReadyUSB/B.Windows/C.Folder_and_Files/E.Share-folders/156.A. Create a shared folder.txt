@@ -1,0 +1,5 @@
+REM Create a shared folder (interactivo ReadyUSB)
+REM Solicita ruta, nombre del recurso compartido y usuario
+DELAY 1500
+STRING cmd /V:ON /C "SET /P folder=Enter folder path to share: && SET /P shared_name=Enter shared name: && SET /P user=Enter username to grant access: && net share !shared_name!=!folder! /grant:!user!,full"
+ENTER

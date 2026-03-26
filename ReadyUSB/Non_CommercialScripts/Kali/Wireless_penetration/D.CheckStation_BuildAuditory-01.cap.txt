@@ -1,0 +1,4 @@
+DELAY 800
+STRING printf "CH: "; read CH; printf "BSSID: "; read BSSID; printf "WiFi Adaptor: "; read wifi; cmd="sudo airodump-ng -c $CH --bssid $BSSID -w Aud $wifi"; print -z -- "$cmd"
+DELAY 1800
+ENTER

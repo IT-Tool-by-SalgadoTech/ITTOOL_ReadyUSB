@@ -1,0 +1,11 @@
+DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1000
+STRING $IP = Read-Host "Enter IP"; nmap -p 1-65535 "$IP"
+ENTER
