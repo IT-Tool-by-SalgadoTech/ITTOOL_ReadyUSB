@@ -1,7 +1,0 @@
-REM Open EFS Certificate Wizard via Windows Search
-DELAY 500
-GUI s
-DELAY 800
-STRING manage file encryption certificates
-DELAY 300
-ENTER

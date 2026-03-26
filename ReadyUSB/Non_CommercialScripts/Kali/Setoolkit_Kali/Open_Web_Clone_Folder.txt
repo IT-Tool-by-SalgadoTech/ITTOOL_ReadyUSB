@@ -1,9 +1,0 @@
-DELAY 800
-CTRL ALT T
-DELAY 2000
-STRING sudo -i
-ENTER
-DELAY 2000
-STRING xdg-open cd /root/.set/web_clone
-DELAY 1000
-ENTER
