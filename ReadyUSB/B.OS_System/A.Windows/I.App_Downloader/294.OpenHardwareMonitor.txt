@@ -1,0 +1,12 @@
+REM HWMonitor Portable: descarga, instalación silenciosa y ejecución (elevado)
+DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 800
+STRING Get-Process -Name 'HWMonitor*','HWMonitorPortable*' -ErrorAction SilentlyContinue | Stop-Process -Force;$u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/HWMonitorPortable_1.58_English.paf.exe';$exe=Join-Path "$env:USERPROFILE\Desktop" 'HWMonitorPortable_1.58_English.paf.exe';$dst=Join-Path "$env:USERPROFILE\Desktop" 'HWMonitorPortable';[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;Remove-Item $exe -Force -ErrorAction SilentlyContinue;New-Item -ItemType Directory -Path $dst -Force|Out-Null;try{Invoke-WebRequest -Uri $u -OutFile $exe -ErrorAction Stop}catch{Write-Host "Descarga fallo: $($_.Exception.Message)";exit 1};$p=Start-Process -FilePath $exe -ArgumentList '/S',"/D=$dst" -PassThru;$p.WaitForExit();$main=Join-Path $dst 'HWMonitorPortable.exe';if(Test-Path $main){Start-Process -FilePath $main -WorkingDirectory $dst}else{$f=Get-ChildItem $dst -Recurse -Filter 'HWMonitor*.exe' -ErrorAction SilentlyContinue|Select-Object -First 1;if($f){Start-Process $f.FullName}else{Write-Host 'No se encontro el ejecutable.'}}
+ENTER

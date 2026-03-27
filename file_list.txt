@@ -1,0 +1,612 @@
+ReadyUSB/A.Manual_PDF/A.ReadyUsb_ManualPDF_Windows.txt
+ReadyUSB/A.Manual_PDF/B.ReadyUsb_ManualPDF_Linux.txt
+ReadyUSB/B.OS_System/1.Powershell_Admin.txt
+ReadyUSB/B.OS_System/2.Terminal_sudo_-i.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/49.Apps.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/50.BIOS.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/51.Bit_Locker.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/52.Calculator.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/53.Check_ram.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/54.Control_panel.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/55.Control_printers.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/56.Data Source Administrator (64-bit).txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/57.Device Manager.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/58.Dirext X Diagnostic.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/59.Display.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/60.Local Users and Groups.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/61.Mouse Properties.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/62.Notepad.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/63.Optional Features.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/64.Powershell.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/65.Registry_Editor.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/66.ResetPowershell.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/67.Restart_pc.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/68.Restore_Service_Key.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/69.Shutdown_pc.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/70.Sound_Panel.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/71.System configuration.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/72.System_ImageWindows_Repair.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/73.System_properties.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/74.Task_Manager.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/75.Taskkill.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/A.Admin_User_Create_Delete/3.Change_password_account.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/A.Admin_User_Create_Delete/4.Check_User_Admin_group.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/A.Admin_User_Create_Delete/5.Create_admin.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/A.Admin_User_Create_Delete/6.Delete_Admin_Account.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/10.Gpedit_Local_Group_Policy_Editor.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/11.Local Security Policy.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/12.Services.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/13.Windows Defender Firewall.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/7.Apps_And_Locations.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/8.Bluetooth_SwiftPair_Permises.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/B.Firewall_and_Security/9.Close_Persistent_File.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/C.Font_Color_CMD_Powershell/14.FontColorPowershell.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/C.Font_Color_CMD_Powershell/15.FontColorPowershell2.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/C.Font_Color_CMD_Powershell/16.FontColorReset.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/C.Font_Color_CMD_Powershell/17.ResetPowershell.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/18.A. System_restore_rstrui.exe.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/19.B. Enable_SystemProtection.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/20.C. Enable VSS Snapshot Service.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/21.D. Check protection status on all units.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/22.E. RestoreFreqUnlock.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/23.F. CheckRestoreFreq.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/24.G. Create_a_restore point.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/D.Create_Restore_Point/25.H. RestoreFreqLock.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/E.Local_User_Create_Delete/26.A. New_Local_User.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/E.Local_User_Create_Delete/27.B. Delete_Local_User.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/E.Local_User_Create_Delete/28.C. Check_User_Admin _group.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/F.Close_All_Interface_App/29.Close app with open interface-1.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/F.Close_All_Interface_App/30.Close app with open interface-2.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/36.Disable USB storage.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/37.Enable USB storage.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/38.USB_Detection.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/A.Lock_USB/31.Check_USB_Status.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/A.Lock_USB/32.Lock_usb.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/A.Lock_USB/33.Unlock_usb.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/B.USB_Seurity_Block/34.USB_Seurity_Block.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/G.USB/B.USB_Seurity_Block/35.USB_Seurity_Restore.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/H.System_Logs/39.-MaxEvents 20.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/H.System_Logs/40.-Newest 20.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/H.System_Logs/41.-Newest 50 Desktop File Download.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/H.System_Logs/42.EntryType Error -Newest 10.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/H.System_Logs/43.Service control Manager -Newest 5.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/I.Toggle_VMwareservises/44.Toggle-VMwareservises_Download_PS1.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/L.Check_and_Logout_Active_Users/45.Check_Active_Users.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/L.Check_and_Logout_Active_Users/46.Check_Active_Users_and_Logout.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/M.Telemetry/47.Check_Tememetry.txt
+ReadyUSB/B.OS_System/A.Windows/B.Admin_And_Security/M.Telemetry/48.Telemetry_Change.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/100.BackDoors_Risk.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/101.Clear the DNS cache.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/102.Firewall.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/103.Internet Properties.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/104.IP Identifique.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/105.IP_Easy_By_SalgadoTech.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/106.IP_Private_And_Public.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/107.ipconfig.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/108.ipconfig_all.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/109.IPv4-classic-config.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/110.IPv4-manual-settings.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/111.ipv6_interfaces.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/112.Listening network connections. -ab.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/113.Listening network connections. Ports-ID Process.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/114.Listening network connections. Ports.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/115.MAC and adapters.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/116.Network conections.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/117.Network_Band_2.4o_5Ghz.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/118.Network_Settings.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/119.OpenConections.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/120.OpenConections_WithPorts.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/121.OpenPort_PublicOrPrivate.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/122.Ping.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/123.Remote Desktop Conections.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/124.Remote ports activity.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/125.Show_WiFi_Driver.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/126.Simulated_Listen_Port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/127.Tracert.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/128.What_process_use_a_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/129.Wi-Fi_Off.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/130.Wi-Fi_On.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/131.WI_FI_password.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/98.ARP (Address Resolution Protocol).txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/99.Available-wifi-signals.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/80.Check acssess to a local port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/81.Check if a port has a rule.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/82.Set a port to listen.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/A.Ports1/76.Close_a_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/A.Ports1/77.Open_a_Port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/B.Ports2/78.Close_a_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/A.FirewallRules_universal_port/B.Ports2/79.Open_a_Port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/B.Port3389_REMOTE_DESKTOP/A.NetFirewallRules for 3389/83.Create the rule to allow port 3389 (RDP).txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/B.Port3389_REMOTE_DESKTOP/A.NetFirewallRules for 3389/84.Remove the rule to allow port 3389 (RDP).txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/B.Port3389_REMOTE_DESKTOP/B.Open_close_port_3389_Opt1/85.Activate_3389_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/B.Port3389_REMOTE_DESKTOP/B.Open_close_port_3389_Opt1/86.Close_3389_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/B.Port3389_REMOTE_DESKTOP/C.Open_close_port_3389_Opt2/87.Close_3389_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/B.Port3389_REMOTE_DESKTOP/C.Open_close_port_3389_Opt2/88.Open_3389_port.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/C.Bluetooth/89.Bluetooth_Off.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/C.Bluetooth/90.Bluetooth_On.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/C.Bluetooth/91.Bluetooth_SwiftPair_Permises.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/D.SSH/PC_Control/92.SSH conection.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/D.SSH/Remote_PC/93.A.Enable_SSH_Server.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/D.SSH/Remote_PC/94.B.Activate_and_start_SSH.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/D.SSH/Remote_PC/95.C.Change_network _public_to_private..txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/D.SSH/Remote_PC/96.D.Enable_Ping_rule.txt
+ReadyUSB/B.OS_System/A.Windows/C.Networks/D.SSH/Remote_PC/97.E.Check_SSH_is_listening.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/167.analyze and repair system files_sfc_scan.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/168.appdata_folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/169.Credentials manager.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/170.Delete_Repeat_Files_And_Folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/171.Empty content any folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/172.Empty Temp-Folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/173.Empty trash.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/174.Encrypt_Decrypt_Files.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/175.File encryption.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/176.File_Explorer_Option.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/177.Hash_Maker.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/178.Hide hidden files and folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/179.Localhost_Folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/180.Number files with $path.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/181.Open_disk_C.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/182.Program_files_folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/183.Share_a_folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/184.Shared_folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/185.Show hidden files and folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/186.Startup_Folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/187.Temp_folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/188.User_folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/189.Users_folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/132.A. SAME PC FILES-FIRSTTIME.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/133.B. LOCAL A EXTERNO-FIRST-TIME.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/134.C. EXTERNO A LOCAL_FIRST-TIME.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/135.D. SAME PC FILES-E.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/136.E. LOCAL A EXTERNO_E.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/137.F. EXTERNO A LOCAL_E.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/138.G. SAME PC FILES-MIR.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/139.H. LOCAL A EXTERNO_MIR.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/A.Robocopy/140.I. EXTERNO A LOCAL_MIR.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/B.Modify attributes of all files in a folder/Files/141.A. Ativate_attributes_from_a_file.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/B.Modify attributes of all files in a folder/Files/142.B. Remove_attributes_from_a_file.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/B.Modify attributes of all files in a folder/Folders and subfolders/143.A. Activate_attributes folder and sub folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/B.Modify attributes of all files in a folder/Folders and subfolders/144.B. Remove_attributes folder and sub folders.txt.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/B.Modify attributes of all files in a folder/Folders and subfolders/145.C. Activate_ Read_Only_folder and sub folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/B.Modify attributes of all files in a folder/Folders and subfolders/146.D. Activate_ Hidden_folder_and_sub_folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/C.Numbering/147.CapitalLettersOnFiles.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/C.Numbering/148.DeleteLettersOnFile.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/C.Numbering/149.DeleteNumbersOnFile.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/C.Numbering/150.LettersOnFiles.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/C.Numbering/151.NumbersOnFiles.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/D.ZIP_Options/152.A. ZipFiles from a folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/D.ZIP_Options/153.B. Zip all content from and file in one zip.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/D.ZIP_Options/154.C. Zip Files, folders and sub folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/155.A. Create a shared folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/156.B. Delete a shared folder.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/157.C. Create a shared folder-full access.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/158.D. Zip Files, folders and sub folders.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/159.E. Delete a shared folder-full access.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/160.F. Create_shared_Folder_Select_User.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/E.Share-folders/161.G.Map_network_drive.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/F.NTFS/162.DisableAccessTimeUpd.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/F.NTFS/163.EnableAccessTimeUpdate.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/F.NTFS/164.SystemManagedAccessTime.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/Index_Tree/165.A.Download_.PyDocument.txt
+ReadyUSB/B.OS_System/A.Windows/D.Folder_and_Files/Index_Tree/166.B.Run.PyDocument.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/198.Check free space (universal with $drive).txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/199.Check mount points.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/200.Disk Cleanup.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/201.Disk Manager.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/202.FormatDisk.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/203.View drive info (universal with $drive).txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/204.View file system type.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/196.DeleteSimpleAndRAIDVolume.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/197.DeleteSpannedVolume.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/A.Fast Process/190.CreateVolume.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/B.Step_Process/191.A. Disk-Raw&PoolReady.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/B.Step_Process/192.B. StartStorageSpace.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/B.Step_Process/193.C.SIMPLE VOLUME.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/B.Step_Process/194.D. SPANNED VOLUME.txt
+ReadyUSB/B.OS_System/A.Windows/E.Storage/Create_Volume_RAID_0_3_5/B.Step_Process/195.E. Raid 0,1,5.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/205.About Windows.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/206.Battery_Report.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/207.Check USB storage status.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/208.Check_HID_Dispositives.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/209.Check_VID_PID_Dispositives.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/210.Cpu_usage.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/211.Date_time.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/212.Disks.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/213.Domain.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/214.Event viewer.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/215.Firewall rule list with Ports 2minuntes_wait.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/216.Firewall rule list.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/217.Firewall_Active_rules.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/218.Get_Local_Users.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/219.Installed drivers.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/220.Installed_apps.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/221.Net user.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/222.Performance Monitor.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/223.Processes ordered from highest to lowest CPU usage_get_process.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/224.Programs and Features.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/225.ram_info.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/226.Resource Monitor.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/227.Route that packets follow from your PC to www.google.com.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/228.Run_OpenHardwareMonitor.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/229.services.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/230.Shared folders on the local network.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/231.shared_folders.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/232.startup_View startup programs.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/233.System uptime.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/234.Task_List_Open_process.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/235.Users_List.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/236.View active RDP sessions_Query_session.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/237.view group policies_gpresult.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/238.VMware_Check.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/239.Windows_defender-fast_virus scanner.txt
+ReadyUSB/B.OS_System/A.Windows/F. Monitoring/240.Windows_defender-virus COMPLETE_scanner.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/241.Can_You_run_it_Game_Test.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/242.DNS-Leak_Test.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/243.GamePad_Tester.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/244.Hybrid_analisis.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/245.IP-Void.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/246.IP_Easy_By_SalgadoTech.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/247.Jotti.s_Malware_Scan.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/248.KeyBoard_Tester.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/249.MyIP_Address.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/250.Pwned_EmailSecurity.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/251.RustDesk_Web.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/252.Speed_Test.txt
+ReadyUSB/B.OS_System/A.Windows/G.External_links_tools/253.Virus_total_scan.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/259.A.Basic_Services_Exposed
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/260.B.Check_critics_Ports_RDP-HTTP-HTTPS-SSH.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/261.C.Fast_Scaning_nmap -T4 -A -v.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/262.D.Full_TCP_port_range_Slower.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/263.E.Lighter scan Detection.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/264.F.Local Host.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/265.G.Nmap Scan against IP or host.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/266.H.Nmap_Scan_LAN_ReportOnDesktop.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/267.I.Ports detailed debugging.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/268.J.Review_RDP_3389_on_all_equipment.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/269.K.Nmap -Pn -T4 _sT.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/270.L.Nmap -sS -T4.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/271.M.Nmap -sU -p Ports.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/272.N.Show packets sent and received.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/273.O.Nmap -sV_Traceroute.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/274.P.Top_port_Detection.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/275.Q.What_hosts_are_alive_on_a_LAN.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/254.A.Install_Nmap.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/255.B.LocateNmap.Locate_Nmap
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/256.C.Execute nmap using the path.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/257.D.Reload_and_confirmNmap_version.txt
+ReadyUSB/B.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/258.E.ScanNmap.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/281.Advanced_IP_Scanner.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/282.AutoRun.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/283.BitTorrent.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/284.BizHawk_Emu.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/285.BorderLessGaming.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/286.CPU-ZPortable.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/287.DirectTx.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/288.DiskGenius.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/289.Fan_Control.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/290.LightshotCopyScreen.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/291.MemTest.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/292.N2nCopy.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/293.Notedpad++.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/294.OpenHardwareMonitor.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/295.Privoxy.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/296.Process Explorer.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/297.Python3.13.5.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/298.RevoUnistaller.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/299.Rufus portable.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/300.RustDesk.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/301.Speccy.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/302.SpeedTest.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/303.TeskDisk.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/304.Tor_Portatil.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/305.UserBenchmark.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/306.VisualC++Runtimes-All-in-One.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/307.Win32 Disk Imager.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/308.WinMediaCreatorTool.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/309.WinRAR_Compress.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/310.WinUtil.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/311.Wireshark_Install.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/312.Wireshark_Npcap.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/7z_Compress.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/NmapPortatil/276.A.Nmap_Download.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/NmapPortatil/277.B.OpenNMapPortable.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/278.Check_Python_Version.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/279.Intall_Python_On_Poweshell.txt
+ReadyUSB/B.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/280.Python_remove.ps1
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/376.BIOS_Info.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/377.Check_Env_Variables.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/378.Check_Open_Ports_All.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/379.Check_RAM.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/380.Check_Sudo_Access.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/381.CPU_Info.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/382.Crontab_View_All_Users.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/383.Crontab_View_Current_User.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/384.Installed_Packages.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/385.Open_Console.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/386.Restart_System.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/387.Shutdown_System.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/388.System_Uptime.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/313.Add_User_To_Group.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/314.Change_Password.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/315.Check_User_Groups.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/316.Create_Sudo_User.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/317.Create_User.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/318.Delete_User.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/319.Force_Logout_User.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/320.List_All_Users.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/321.Lock_User_Account.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/322.Show_Logged_In_Users.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/A.User_Management/323.Unlock_User_Account.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/324.IPTables_List_All.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/325.UFW_Allow_From_IP.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/326.UFW_Allow_Port.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/327.UFW_Block_IP.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/328.UFW_Delete_Rule.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/329.UFW_Deny_Port.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/330.UFW_Disable.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/331.UFW_Enable.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/332.UFW_Reset.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/B.Firewall_UFW/333.UFW_Status.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/334.Disable_Service_Autostart.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/335.Enable_Service_Autostart.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/336.List_All_Services.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/337.List_Failed_Services.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/338.Reload_Daemon.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/339.Restart_Service.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/340.Service_Status.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/341.Start_Service.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/C.Services/342.Stop_Service.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/343.Auth_Log.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/344.Boot_Log.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/345.Clear_Journalctl.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/346.Failed_Login_Attempts.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/347.Kernel_Log.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/348.Service_Log.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/349.System_Log_Follow.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/D.Logs/350.System_Log_Last50.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/351.Check_USB_Storage_Status.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/352.Disable_USB_Storage.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/353.Enable_USB_Storage.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/354.List_Block_Devices.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/355.List_Hardware_Full.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/356.List_PCI_Devices.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/357.List_USB_Devices.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/E.USB_and_Devices/358.Monitor_USB_Events.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/359.Check_Zombie_Processes.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/360.CPU_Usage_Per_Core.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/361.Find_Process_By_Name.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/362.Force_Kill_Process.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/363.Kill_Process_By_Name.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/364.Kill_Process_By_PID.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/365.List_All_Processes.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/366.Live_Process_Monitor.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/367.Process_Network_Usage.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/368.Process_Open_Files.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/369.Process_Tree.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/F.Processes/370.Schedule_Task_Cron.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/G.Console/371.Bash_As_Root.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/G.Console/372.Check_Current_User.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/G.Console/373.Open_Root_Terminal.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/G.Console/374.Open_Terminal.txt
+ReadyUSB/B.OS_System/B.Linux/A.Admin_And_Security/G.Console/375.Terminal_History.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/423.Active_Connections.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/424.ARP_Table.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/425.DNS_Lookup.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/426.Flush_DNS_Cache.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/427.IP_Config_All.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/428.IP_Private_And_Public.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/429.Listening_Ports.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/430.MAC_And_Adapters.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/431.Network_Speed_Test.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/432.Ping.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/433.Show_Routes.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/434.Traceroute.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/435.What_Process_Uses_Port.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/A.Ports_and_Firewall/389.Backdoor_Risk_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/A.Ports_and_Firewall/390.Check_Port_Open.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/A.Ports_and_Firewall/391.Close_Port_UFW.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/A.Ports_and_Firewall/392.Open_Port_UFW.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/A.Ports_and_Firewall/393.Simulate_Listen_Port.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/394.Enable_SSH_Server.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/395.SSH_Active_Sessions.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/396.SSH_Change_Port.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/397.SSH_Connect.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/398.SSH_Connect_Port.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/399.SSH_Copy_Key.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/400.SSH_Generate_Key.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/401.SSH_Restart.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/402.SSH_Server_Status.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/B.SSH/403.SSH_Stop.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/404.WiFi_Connect.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/405.WiFi_Disconnect.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/406.WiFi_Driver_Info.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/407.WiFi_Off.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/408.WiFi_On.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/409.WiFi_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/410.WiFi_Show_Password.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/C.WiFi/411.WiFi_Status.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/412.Bluetooth_Connect_Device.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/413.Bluetooth_List_Paired.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/414.Bluetooth_Off.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/415.Bluetooth_On.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/416.Bluetooth_Remove_Device.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/417.Bluetooth_Scan_Devices.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/D.Bluetooth/418.Bluetooth_Status.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/E.NordVPN/419.A.Download_NordVPN.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/E.NordVPN/420.B.Open_And_Connect_NordVPN.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/E.NordVPN/421.C.Select_a_Country.txt
+ReadyUSB/B.OS_System/B.Linux/B.Networks/E.NordVPN/422.D.Disonnect_NordVPN.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/452.Check_Disk_Usage_Folder.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/453.Create_Symbolic_Link.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/454.Empty_Folder.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/455.Empty_Temp_Folder.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/456.Empty_Trash.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/457.Hash_File.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/458.Share_Folder_Samba.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/459.Show_File_Info.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/460.Show_Hidden_Files.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/A.Permissions/436.Change_Owner.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/A.Permissions/437.Change_Permissions.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/A.Permissions/438.Check_Permissions.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/A.Permissions/439.Make_Executable.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/A.Permissions/440.Remove_Immutable.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/A.Permissions/441.Set_Immutable.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/B.Compress/442.Tar_Create.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/B.Compress/443.Tar_Extract.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/B.Compress/444.Tar_List_Contents.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/B.Compress/445.Unzip_File.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/B.Compress/446.Zip_Folder.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/C.Find_and_Search/447.Delete_Duplicate_Files.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/C.Find_and_Search/448.Find_File_By_Name.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/C.Find_and_Search/449.Find_Large_Files.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/C.Find_and_Search/450.Find_Modified_Recently.txt
+ReadyUSB/B.OS_System/B.Linux/C.Folders_and_Files/C.Find_and_Search/451.Find_Text_In_Files.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/470.Disk_Info.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/471.Disk_Usage_Top.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/472.Free_Space.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/473.Show_Disks.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/474.SMART_Status.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/A.Disk_Management/461.Check_Filesystem.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/A.Disk_Management/462.Create_Partition_Table.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/A.Disk_Management/463.Format_Disk.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/A.Disk_Management/464.Wipe_Disk_Zeros.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/B.Mount/465.Auto_Mount_fstab.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/B.Mount/466.Mount_Device.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/B.Mount/467.Mount_ISO.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/B.Mount/468.Show_Mounted_Drives.txt
+ReadyUSB/B.OS_System/B.Linux/D.Storage/B.Mount/469.Unmount_Device.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/475.Active_Network_Connections.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/476.Battery_Report.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/477.Check_GPU_Nvidia.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/478.Check_HID_Devices.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/479.Check_VID_PID_USB.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/480.CPU_Usage.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/481.Date_Time.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/482.Domain_And_Hostname.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/483.Installed_Drivers.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/484.Live_CPU_RAM_Monitor.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/485.Network_Bandwidth_Live.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/486.Network_Interface_Stats.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/487.RAM_Usage.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/488.Startup_Programs.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/489.System_Info_Full.txt
+ReadyUSB/B.OS_System/B.Linux/E.Monitoring/490.Temperature_Monitor.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/491.Can_You_Run_It_Game_Test.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/492.DNS_Leak_Test.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/493.GamePad_Tester.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/494.Hybrid_Analysis.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/495.IP_Easy_By_SalgadoTech.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/496.IP_Void.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/497.Jottis_Malware_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/498.KeyBoard_Tester.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/499.MyIP_Address.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/500.Pwned_Email_Security.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/501.RustDesk_Web.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/502.Speed_Test.txt
+ReadyUSB/B.OS_System/B.Linux/F.External_links_tools/503.Virus_Total_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/504.Nmap_Aggressive_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/505.Nmap_Bypass_Firewall.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/506.Nmap_Check_Critical_Ports.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/507.Nmap_Full_TCP_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/508.Nmap_Install.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/509.Nmap_Localhost.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/510.Nmap_OS_Detection.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/511.Nmap_Ping_Sweep_LAN.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/512.Nmap_Quick_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/513.Nmap_Scan_LAN_Report.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/514.Nmap_Service_Version.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/515.Nmap_Stealth_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/516.Nmap_Top_Ports.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/517.Nmap_Traceroute.txt
+ReadyUSB/B.OS_System/B.Linux/G.Nmap/518.Nmap_UDP_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/595.Check_Hostname.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/596.Check_IP_Kali.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/597.Copy_and_Paste_Kali.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/598.Copy_or_Paste.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/599.Create_Folder.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/600.Delete_Folder.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/601.Download_and_install_Rusk_Desk.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/602.Kali_Restart_inside_bios.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/603.Kill_Process.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/604.Open_Rusk_Desk.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/605.Symbolic_link.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/606.What_Apps_are_open.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/607.What_Process_are_open.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/519.IPTables_Allow_IP.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/520.IPTables_Allow_Port.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/521.IPTables_Block_IP.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/522.IPTables_Block_Outbound_IP.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/523.IPTables_Block_Port.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/524.IPTables_Delete_Rule.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/525.IPTables_Flush_All.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/526.IPTables_Save_Rules.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/527.IPTables_Status_Full.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/A.Firewall_IPTables/528.NFTables_Status.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/529.Capture_Handshake_Airodump.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/530.Check_WiFi_Adapters.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/531.Deauth_Attack_Aireplay.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/532.Monitor_Mode_Airmon.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/533.Monitor_Mode_Airmon_Stop.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/534.Monitor_Mode_Disable.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/535.Monitor_Mode_Enable.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/536.Restart_NetworkManager.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/537.WiFi_Connect_wpa.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/538.WiFi_Interfaces.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/B.WiFi_Wireless/539.WiFi_Scan_iwlist.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/540.Directory_Enum_Gobuster.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/541.DNS_Full_Enum.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/542.DNS_Zone_Transfer.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/543.Host_Lookup.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/544.Nikto_Web_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/545.Ping_Sweep_fping.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/546.SMB_Enum_Enum4linux.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/547.SMB_List_Shares.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/548.Subdomain_Enum_Fierce.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/549.Traceroute_Full.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/550.Web_Tech_WhatWeb.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/C.Recon_And_OSINT/551.Whois_Domain.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/552.Extract_Hashes_Mimikatz_Wine.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/553.Generate_Wordlist_Crunch.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/554.Hashcat_Crack_Wordlist.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/555.Hashcat_Identify_Hash.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/556.Hydra_HTTP_Brute.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/557.Hydra_SSH_Brute.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/558.John_Crack_File.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/559.John_Show_Cracked.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/D.Password_Tools/560.Unshadow_Linux.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/561.Generate_Payload_Msfvenom.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/562.Metasploit_Start.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/563.Metasploit_Update.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/564.MSF_Start_DB.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/565.Netcat_Connect.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/566.Netcat_Listen.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/567.Searchsploit_Copy_Exploit.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/568.Searchsploit_Search.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/569.SQLMap_Basic_Scan.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/E.Exploitation_Framework/570.SQLMap_Dump_DB.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/571.Bettercap_Start.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/572.Ettercap_ARP_Spoof.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/573.NetFlow_Active_Connections.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/574.Tcpdump_Capture_Interface.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/575.Tcpdump_Filter_IP.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/576.Tcpdump_Filter_Port.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/577.Tcpdump_Live_HTTP.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/578.Tshark_Top_Talkers.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/F.Traffic_Analysis/579.Wireshark_Start.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/580.Anonymous_MAC_Spoof.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/581.Check_Kali_Version.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/582.Enable_Root_Login.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/583.Kali_Install_All_Tools.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/584.Kali_Update_Full.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/585.Open_Setoolkit.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/586.Restore_MAC_Address.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/587.Start_Apache_Server.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/588.Start_Burpsuite.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/589.Start_Python_HTTP_Server.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/G.Kali_System/590.VPN_Check_Leak.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/H.NordVPN-Kali/591.A.Download_NordVPN.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/H.NordVPN-Kali/592.B.Open_And_Connect_NordVPN.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/H.NordVPN-Kali/593.C.Select_a_Country.txt
+ReadyUSB/B.OS_System/B.Linux/H.Kali_Linux/H.NordVPN-Kali/594.D.Disonnect_NordVPN.txt
+ReadyUSB/C.Script_Saver_Runner/608.A.Script_Saver_Linux.txt
+ReadyUSB/C.Script_Saver_Runner/609.A.Script_Saver_Windows.txt

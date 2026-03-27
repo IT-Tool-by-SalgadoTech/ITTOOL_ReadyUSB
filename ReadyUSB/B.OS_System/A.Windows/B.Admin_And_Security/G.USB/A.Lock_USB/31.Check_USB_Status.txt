@@ -1,0 +1,3 @@
+DELAY 1800
+STRING (Get-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR' -Name Start).Start
+ENTER

@@ -1,0 +1,4 @@
+REM Crear punto de restauración
+DELAY 1500
+STRING Checkpoint-Computer -Description "ReadyUSB_RestorePoint" -RestorePointType "MODIFY_SETTINGS"
+ENTER

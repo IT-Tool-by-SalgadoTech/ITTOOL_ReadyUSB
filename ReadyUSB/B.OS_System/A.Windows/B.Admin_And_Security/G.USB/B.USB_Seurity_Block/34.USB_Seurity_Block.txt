@@ -1,0 +1,3 @@
+DELAY 1500
+STRING powershell -ExecutionPolicy Bypass -Command "Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR' -Name 'Start' -Value 4;New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall' -Name 'Restrictions' -Force | Out-Null;Set-ItemProperty 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions' 'DenyUnspecified' 1;Set-ItemProperty 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions' 'DenyNewUSBDevices' 1;gpupdate /target:computer /force;Write-Host 'USB hardened: storage and new devices blocked.'"
+ENTER

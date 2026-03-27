@@ -1,0 +1,4 @@
+REM Ver espacio en discos
+DELAY 1000
+STRING Get-PSDrive -PSProvider 'FileSystem'
+ENTER
