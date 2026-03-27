@@ -1,4 +1,0 @@
-REM PowerShell administrador interactivo - ping
-DELAY 1500
-STRING $ip=Read-Host "Enter IP to ping"; ping $ip
-ENTER

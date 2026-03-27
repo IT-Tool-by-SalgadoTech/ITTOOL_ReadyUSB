@@ -1,5 +1,0 @@
-STRING powershell
-ENTER
-DELAY 500
-STRING $user=Read-Host "Enter the username to delete"; net user $user /delete
-ENTER

@@ -1,4 +1,0 @@
-REM Verificar reglas de firewall activas para un puerto (interactivo)
-DELAY 1500
-STRING $p=Read-Host "Enter the port to check (e.g. 3389)";$results=Get-NetFirewallRule -Enabled True | %{$r=$_;$pf=Get-NetFirewallPortFilter -AssociatedNetFirewallRule $r -ErrorAction SilentlyContinue;if($pf){$lp=($pf.LocalPort -join ',');$rp=($pf.RemotePort -join ',');if($lp -match "(^|,)$p($|,)" -or $rp -match "(^|,)$p($|,)"){[pscustomobject]@{Name=$r.DisplayName;Action=$r.Action;Direction=$r.Direction;Profile=$r.Profile;Protocol=($pf.Protocol -join ',');LocalPort=$lp;RemotePort=$rp}}}};if($results){$results | ft -Auto}else{Write-Host "No enabled firewall rules found for port $p."}
-ENTER

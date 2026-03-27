@@ -1,4 +1,0 @@
-REM Vacía la papelera de reciclaje (Recycle Bin) con PowerShell administrador
-DELAY 1500
-STRING Clear-RecycleBin -Force
-ENTER

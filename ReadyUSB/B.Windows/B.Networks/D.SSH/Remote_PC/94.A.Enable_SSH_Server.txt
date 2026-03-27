@@ -1,3 +1,0 @@
-DELAY 1500
-STRING Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Server*'
-ENTER

@@ -1,4 +1,0 @@
-REM Monitor USB plug/unplug events in real time (Ctrl+C to stop)
-DELAY 500
-STRING sudo udevadm monitor --udev --subsystem-match=usb
-ENTER

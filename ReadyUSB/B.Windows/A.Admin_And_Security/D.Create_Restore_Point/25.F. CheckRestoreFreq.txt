@@ -1,4 +1,0 @@
-REM CheckRestoreFreq - Checks system restore point frequency
-DELAY 1000
-STRING Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" -Name "SystemRestorePointCreationFrequency"
-ENTER
