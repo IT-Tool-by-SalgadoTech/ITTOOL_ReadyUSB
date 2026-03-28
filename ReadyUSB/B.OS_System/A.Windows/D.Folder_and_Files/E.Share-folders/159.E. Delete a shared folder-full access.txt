@@ -1,0 +1,5 @@
+REM Eliminar recurso compartido (estructura correcta tipo ReadyUSB)
+REM Solicita nombre y elimina compartido
+DELAY 1500
+STRING cmd /V:ON /C "SET /P share_name=Enter shared folder name to delete: && net share !share_name! /delete"
+ENTER

@@ -1,0 +1,3 @@
+DELAY 1500
+STRING $svcs=Get-Service|Where-Object{$_.Name -like '*VMware*' -or $_.DisplayName -like '*VMware*'}; if(-not $svcs){Write-Host 'VMware is not installed or no VMware services were found.' -ForegroundColor Yellow; return}; $svcs|ForEach-Object{ $s=$_; $wmi=Get-WmiObject -Class Win32_Service -Filter ('Name=''{0}''' -f $s.Name) -ErrorAction SilentlyContinue; [PSCustomObject]@{Name=$s.Name;DisplayName=$s.DisplayName;Status=$s.Status;StartType=$s.StartType;Path=if($wmi){$wmi.PathName}else{'(not accessible)'}} } | Format-Table -AutoSize
+ENTER

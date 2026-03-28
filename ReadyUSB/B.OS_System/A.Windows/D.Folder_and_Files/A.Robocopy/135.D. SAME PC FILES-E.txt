@@ -1,0 +1,5 @@
+REM SCRIPT PARA COPIAR ARCHIVOS EN EL MISMO PC (ReadyUSB interactivo)
+REM Solicita las rutas origen y destino
+DELAY 1500
+STRING $source=Read-Host "Enter source path"; $destination=Read-Host "Enter destination path"; robocopy $source $destination /E
+ENTER

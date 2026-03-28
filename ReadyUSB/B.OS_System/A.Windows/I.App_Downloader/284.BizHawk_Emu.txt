@@ -1,0 +1,11 @@
+DELAY 1000
+GUI r
+DELAY 1500
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1800
+STRING Invoke-WebRequest -Uri "https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/BizHawk-2.10-win-x64.zip" -OutFile "$env:TEMP\BizHawk.zip"; Expand-Archive -Path "$env:TEMP\BizHawk.zip" -DestinationPath "$env:USERPROFILE\Desktop\BizHawk" -Force
+ENTER
