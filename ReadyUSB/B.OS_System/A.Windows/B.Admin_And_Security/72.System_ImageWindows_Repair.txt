@@ -1,3 +1,0 @@
-DELAY 1500
-STRING powershell -ExecutionPolicy Bypass -Command "Start-Process cmd -ArgumentList '/c sfc /scannow & DISM /Online /Cleanup-Image /RestoreHealth & echo. & echo === Reparacion completada. Reinicia el sistema. === & pause' -Verb runAs"
-ENTER

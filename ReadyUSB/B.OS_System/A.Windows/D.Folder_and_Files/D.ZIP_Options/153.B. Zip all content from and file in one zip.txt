@@ -1,5 +1,0 @@
-REM Zip all content from a folder into one ZIP file (ReadyUSB - English version)
-REM Compress the entire folder into one ZIP file
-DELAY 1500
-STRING $sourceFolder=Read-Host "Enter source folder"; $zipFile=Read-Host "Enter full path for the output ZIP file (e.g. C:\output.zip)"; Compress-Archive -Path "$sourceFolder\*" -DestinationPath $zipFile -Force; Write-Host "✅ All content was compressed into a single ZIP file."
-ENTER

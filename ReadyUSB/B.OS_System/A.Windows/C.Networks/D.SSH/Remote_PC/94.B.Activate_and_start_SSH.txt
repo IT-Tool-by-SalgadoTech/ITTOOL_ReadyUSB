@@ -1,3 +1,0 @@
-DELAY 1500
-STRING Set-Service -Name sshd -StartupType Automatic
-ENTER

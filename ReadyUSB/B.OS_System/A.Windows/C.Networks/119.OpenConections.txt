@@ -1,3 +1,0 @@
-DELAY 1500
-STRING $a=Get-NetIPInterface|Where{$_.ConnectionState -eq 'Connected'}|Select ifIndex,InterfaceAlias;$c=Get-NetTCPConnection|Where{$_.State -eq 'Established'}|Select LocalAddress,RemoteAddress,State,OwningProcess;$o=@();foreach($conn in $c){$r=Get-NetRoute -DestinationPrefix '0.0.0.0/0'|Sort RouteMetric|Select -First 1;$ad=$a|Where{$_.ifIndex -eq $r.ifIndex};$p=Get-Process -Id $conn.OwningProcess -ErrorAction SilentlyContinue;$o+=('[{0}] {1}:{2} --> {3} (via: {4})'-f $p.ProcessName,$conn.LocalAddress,$conn.State,$conn.RemoteAddress,$ad.InterfaceAlias)};$o|Out-File -Encoding ASCII "$env:USERPROFILE\Desktop\NetReport.txt";notepad "$env:USERPROFILE\Desktop\NetReport.txt"
-ENTER

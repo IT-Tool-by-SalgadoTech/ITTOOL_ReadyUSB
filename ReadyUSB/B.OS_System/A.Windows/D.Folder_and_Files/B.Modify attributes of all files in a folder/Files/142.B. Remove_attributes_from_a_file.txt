@@ -1,5 +1,0 @@
-REM Oculta archivo usando atributo +R +H con ruta ingresada por el usuario
-REM Solicita la ruta del archivo y oculta
-DELAY 1500
-STRING cmd /V:ON /C "SET /P filePath=Enter full path to file: && attrib -R -H !filePath!"
-ENTER

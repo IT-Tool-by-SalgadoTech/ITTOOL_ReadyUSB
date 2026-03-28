@@ -1,4 +1,0 @@
-REM Ver tiempo de actividad del sistema
-DELAY 500
-STRING (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
-ENTER
