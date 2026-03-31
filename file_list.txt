@@ -611,6 +611,7 @@ ReadyUSB/A.OS_System/B.Linux/H.Kali_Linux/H.NordVPN-Kali/594.D.Disonnect_NordVPN
 ReadyUSB/B.Script_Saver_Runner/608.A.Script_Saver_Windows.txt
 ReadyUSB/B.Script_Saver_Runner/609.B.Script_Saver_Linux.txt
 ReadyUSB/C.Screen_mirror_runner/Screen_mirror_runner.txt
+ReadyUSB/D.Screen_mirror_runner/Screen_mirror_runner.txt
 ReadyUSB/Non_CommercialScripts/Developer_tools/generate_file_list_Save.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/A.Open_setoolkit kali.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/B.Save_HTML_clones.txt
