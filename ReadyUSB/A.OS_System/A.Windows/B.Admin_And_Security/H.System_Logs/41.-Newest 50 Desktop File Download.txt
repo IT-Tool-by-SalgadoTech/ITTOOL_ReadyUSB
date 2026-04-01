@@ -1,0 +1,4 @@
+REM Ver últimos eventos del sistema
+DELAY 1000
+STRING Get-EventLog -LogName System -Newest 50 | Out-File "$env:USERPROFILE\Desktop\SystemLog.txt"
+ENTER

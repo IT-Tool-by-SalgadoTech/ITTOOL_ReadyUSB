@@ -1,0 +1,3 @@
+DELAY 1800
+STRING $drive=Read-Host "Drive letter (ej: C:)"; fsutil volume diskfree $drive
+ENTER

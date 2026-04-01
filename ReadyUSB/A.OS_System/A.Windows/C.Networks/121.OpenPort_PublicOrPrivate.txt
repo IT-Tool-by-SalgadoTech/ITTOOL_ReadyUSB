@@ -1,0 +1,4 @@
+REM Ejecutar netstat -ab desde PowerShell como administrador
+DELAY 1000
+STRING Get-NetTCPConnection -State Listen | Sort LocalPort | Select LocalAddress, LocalPort, @{Name="Process";Expression={(Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue).ProcessName}} | Format-Table -AutoSize
+ENTER

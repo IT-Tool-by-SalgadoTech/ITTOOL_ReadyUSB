@@ -1,0 +1,11 @@
+DELAY 1800
+CTRL ALT T
+DELAY 2500
+STRING curl -L https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/IT_Mirror.py -o ~/Desktop/IT_Mirror.py
+ENTER
+DELAY 3000
+STRING pip3 install pygame pyserial --break-system-packages --quiet
+ENTER
+DELAY 8000
+STRING python3 ~/Desktop/IT_Mirror.py
+ENTER

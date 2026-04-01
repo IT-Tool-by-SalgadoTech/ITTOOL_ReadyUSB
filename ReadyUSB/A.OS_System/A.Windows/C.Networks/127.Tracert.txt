@@ -1,0 +1,4 @@
+REM Tracert interactivo (English prompt)
+DELAY 1000
+STRING $target=Read-Host "Enter IP or website target for tracert"; tracert $target
+ENTER

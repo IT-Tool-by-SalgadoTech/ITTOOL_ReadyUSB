@@ -1,0 +1,11 @@
+DELAY 1800
+STRING $dst="$env:USERPROFILE\Desktop\Toggle-VMwareServices.ps1";$raw='https://raw.githubusercontent.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/main/Toggle-VMwareServices.ps1';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst
+ENTER
+DELAY 2000
+GUI r
+DELAY 1000
+STRING powershell
+ENTER
+DELAY 1800
+STRING Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',"$env:USERPROFILE\Desktop\Toggle-VMwareServices.ps1")
+ENTER

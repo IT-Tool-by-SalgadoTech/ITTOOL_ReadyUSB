@@ -1,0 +1,6 @@
+REM Launch user_folder
+DELAY 1000
+GUI r
+DELAY 800
+STRING .
+ENTER

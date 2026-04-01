@@ -1,0 +1,3 @@
+DELAY 1000
+STRING ls /dev/ttyACM* /dev/ttyUSB*
+ENTER
