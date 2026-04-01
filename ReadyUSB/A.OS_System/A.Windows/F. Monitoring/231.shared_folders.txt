@@ -1,4 +1,0 @@
-REM Ver carpetas compartidas
-DELAY 1000
-STRING Get-SmbShare | Where-Object {$_.Name -ne 'IPC$' }
-ENTER

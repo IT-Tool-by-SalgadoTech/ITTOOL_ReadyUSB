@@ -1,3 +1,0 @@
-DELAY 1000
-STRING Get-PSDrive -PSProvider FileSystem | ForEach-Object {Get-ChildItem $_.Root -Filter nmap.exe -Recurse -ErrorAction SilentlyContinue} | Select-Object FullName
-ENTER

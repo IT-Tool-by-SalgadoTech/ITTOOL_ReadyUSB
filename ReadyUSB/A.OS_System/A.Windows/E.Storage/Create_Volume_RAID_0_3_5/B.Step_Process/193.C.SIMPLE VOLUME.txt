@@ -1,4 +1,0 @@
-REM HWMonitor Portable: descarga, instalación silenciosa y ejecución (elevado)
-DELAY 1800
-STRING $diskNum=Read-Host "Disk number (ej. 0)"; $letter=(Read-Host "Drive letter (ej. E)").TrimEnd(':').ToUpper(); $label=Read-Host "Volume label (ej. DATA)"; $d=Get-Disk -Number $diskNum -ErrorAction Stop; if($d.IsSystem -or $d.IsBoot){Write-Host "ABORT: Ese disco es System/Boot."; exit}; $tmp=Join-Path $env:TEMP ("simple_{0}.txt" -f ([guid]::NewGuid().ToString('N'))); $lines=@("select disk $diskNum","online disk noerr","attributes disk clear readonly","convert gpt noerr","rescan","create partition primary","format fs=ntfs label=`"$label`" quick","assign letter=$letter","exit"); $lines | Set-Content -Path $tmp -Encoding ASCII; diskpart /s $tmp; Remove-Item $tmp -Force -ErrorAction SilentlyContinue
-ENTER
