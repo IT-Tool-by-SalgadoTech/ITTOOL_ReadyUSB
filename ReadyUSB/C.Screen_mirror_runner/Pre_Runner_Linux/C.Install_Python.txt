@@ -1,3 +1,0 @@
-DELAY 1000
-STRING apt install python3 python3-pip -y
-ENTER

@@ -1,3 +1,0 @@
-DELAY 1800
-STRING $drive=Read-Host "Drive letter (ej: C:)"; fsutil fsinfo volumeinfo $drive
-ENTER

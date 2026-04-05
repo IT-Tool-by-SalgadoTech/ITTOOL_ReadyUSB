@@ -1,5 +1,0 @@
-REM Copiar archivos de una carpeta a otra usando Robocopy con input del usuario
-REM Solicita origen y destino, luego ejecuta Robocopy
-DELAY 1500
-STRING $source=Read-Host "Enter source folder path"; $destination=Read-Host "Enter destination folder path"; robocopy $source *.* $destination
-ENTER

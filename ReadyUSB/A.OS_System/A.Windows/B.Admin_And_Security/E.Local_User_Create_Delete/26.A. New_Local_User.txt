@@ -1,4 +1,0 @@
-REM Crear usuario local desde PowerShell como administrador (interactivo)
-DELAY 1500
-STRING $user=Read-Host "Enter username"; $pass=Read-Host "Enter password"; $secure=ConvertTo-SecureString $pass -AsPlainText -Force; New-LocalUser -Name $user -Password $secure -FullName $user -Description "Usuario IT Tool"; Add-LocalGroupMember -Group "Users" -Member $user
-ENTER
