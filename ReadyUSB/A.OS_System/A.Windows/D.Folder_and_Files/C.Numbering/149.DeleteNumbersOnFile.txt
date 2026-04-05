@@ -1,0 +1,3 @@
+DELAY 1500
+STRING $Path = Read-Host "ENTER FOLDER PATH"; Get-ChildItem -LiteralPath $Path -File -Force | ForEach-Object { $BaseName = $_.BaseName; $Ext = $_.Extension; $Dir = $_.DirectoryName; $NewBase = ($BaseName -replace '^\d+\.', '').Trim(); if ([string]::IsNullOrWhiteSpace($NewBase) -or $NewBase -eq $BaseName) { return }; $Candidate = "$NewBase$Ext"; $N = 1; while (Test-Path -LiteralPath (Join-Path $Dir $Candidate)) { $Candidate = "$NewBase ($N)$Ext"; $N++ }; Rename-Item -LiteralPath $_.FullName -NewName $Candidate -Force }
+ENTER

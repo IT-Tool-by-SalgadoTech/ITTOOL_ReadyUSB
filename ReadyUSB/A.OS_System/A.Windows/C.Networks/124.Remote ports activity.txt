@@ -1,0 +1,19 @@
+DELAY 1500
+STRINGLN
+$cn = Get-NetTCPConnection -State Established | Where-Object {
+    $_.RemoteAddress -ne '127.0.0.1' -and $_.RemoteAddress -ne $_.LocalAddress
+}
+
+if (-not $cn) {
+    Write-Host "No hay conexiones TCP remotas establecidas."
+    return
+}
+
+$cn | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State,
+    @{Name="PID"; Expression={$_.OwningProcess}},
+    @{Name="Proceso"; Expression={(Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue).Name}} |
+    Format-Table -AutoSize
+	
+@{Name="Ruta"; Expression={(Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue).MainModule.FileName}}
+END_STRINGLN
+ENTER
