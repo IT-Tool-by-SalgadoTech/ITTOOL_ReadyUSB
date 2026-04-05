@@ -1,4 +1,0 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 500
-STRING Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" -Name "fDenyTSConnections" -Value 1
-ENTER

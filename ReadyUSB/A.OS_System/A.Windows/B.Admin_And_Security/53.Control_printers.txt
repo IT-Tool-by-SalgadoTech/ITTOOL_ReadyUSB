@@ -1,7 +1,0 @@
-REM Launch control_printers
-DELAY 1000
-GUI s
-DELAY 800
-STRING printers
-DELAY 1000
-ENTER

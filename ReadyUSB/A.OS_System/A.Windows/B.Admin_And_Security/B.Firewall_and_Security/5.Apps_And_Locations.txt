@@ -1,3 +1,0 @@
-DELAY 1000
-STRING $paths=@('HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*','HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'); Get-ItemProperty $paths -ErrorAction SilentlyContinue | Where-Object { $_.DisplayName -and $_.InstallDate } | ForEach-Object { $raw=$_.InstallDate.ToString().Trim(); $dt=$null; if($raw -match '^\d{8}$'){ try{$dt=[datetime]::ParseExact($raw,'yyyyMMdd',$null)}catch{$dt=$null} } else { try{$dt=[datetime]::Parse($raw)}catch{$dt=$null} }; [pscustomobject]@{ InstallDate=($(if($dt){$dt.ToString('yyyy-MM-dd')}else{$raw})); DisplayName=$_.DisplayName; InstallLocation=$_.InstallLocation } } | Sort-Object InstallDate -Descending | Format-List
-ENTER

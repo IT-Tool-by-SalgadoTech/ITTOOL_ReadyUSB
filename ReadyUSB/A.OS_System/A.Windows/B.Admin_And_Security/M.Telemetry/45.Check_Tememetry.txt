@@ -1,4 +1,0 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 1000
-STRING reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection; Get-Service DiagTrack; Get-Service DiagTrack | Select StartType; Get-Service dmwappushservice; reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\CloudContent; schtasks /query | findstr Experience
-ENTER

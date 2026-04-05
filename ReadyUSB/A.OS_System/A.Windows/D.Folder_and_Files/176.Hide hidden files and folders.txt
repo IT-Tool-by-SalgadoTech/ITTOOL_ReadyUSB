@@ -1,4 +1,0 @@
-REM Ocultar archivos y carpetas ocultos
-DELAY 500
-STRING Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name Hidden -Value 2
-ENTER

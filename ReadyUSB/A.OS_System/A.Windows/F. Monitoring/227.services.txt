@@ -1,4 +1,0 @@
-REM Ver servicios en ejecución
-DELAY 1000
-STRING Get-Service | Where-Object {$_.Status -eq 'Running'}
-ENTER
