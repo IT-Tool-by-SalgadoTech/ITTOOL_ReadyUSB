@@ -1,0 +1,33 @@
+﻿DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1000
+STRINGLN
+$ErrorActionPreference = "Stop"
+
+Write-Host "Installing Wireshark..."
+winget install --id WiresharkFoundation.Wireshark --exact --silent --accept-package-agreements --accept-source-agreements
+
+Write-Host ""
+Write-Host "Verifying installation..."
+$wiresharkExe = "$env:ProgramFiles\Wireshark\Wireshark.exe"
+
+if (-not (Test-Path $wiresharkExe)) {
+    $wiresharkExe = "${env:ProgramFiles(x86)}\Wireshark\Wireshark.exe"
+}
+
+if (Test-Path $wiresharkExe) {
+    Write-Host "Wireshark installed successfully: $wiresharkExe"
+    Write-Host "Opening Wireshark..."
+    Start-Process $wiresharkExe
+} else {
+    Write-Host "Wireshark may have been installed, but the executable was not found in the usual path."
+    Write-Host "Check manually from the Start menu."
+}
+END_STRINGLN
+ENTER

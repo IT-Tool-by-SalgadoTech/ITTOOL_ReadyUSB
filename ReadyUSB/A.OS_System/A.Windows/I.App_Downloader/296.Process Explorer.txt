@@ -1,0 +1,11 @@
+DELAY 1500
+GUI r
+DELAY 500
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1500
+STRING powershell -Command "$u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/ProcessExplorer/procexp64.exe';$d=\"$env:TEMP\procexp64.exe\";Invoke-WebRequest -Uri $u -OutFile $d;reg add 'HKCU\Software\Sysinternals\Process Explorer' /v EulaAccepted /t REG_DWORD /d 1 /f | Out-Null;Unblock-File -Path $d -ErrorAction SilentlyContinue;if(Get-Item $d -Stream 'Zone.Identifier' -ErrorAction SilentlyContinue){Remove-Item $d -Stream 'Zone.Identifier' -Force -ErrorAction SilentlyContinue};Start-Process -FilePath $d -Verb runAs"
+ENTER

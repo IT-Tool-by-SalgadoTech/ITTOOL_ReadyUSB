@@ -1,0 +1,16 @@
+REM HWMonitor Portable: descarga, instalación silenciosa y ejecución (elevado)
+DELAY 1000
+GUI r
+DELAY 1500
+STRING powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1800
+STRING $u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/testdisk-7.3-WIP.zip';$zip=Join-Path $env:USERPROFILE 'Desktop\testdisk-7.3-WIP.zip';$dest=Join-Path $env:USERPROFILE 'Desktop\testdisk-7.3-WIP';Invoke-WebRequest -Uri $u -OutFile $zip;If(Test-Path $dest){Remove-Item $dest -Recurse -Force};Expand-Archive -Path $zip -DestinationPath $dest -Force;$exe=(Get-ChildItem -Path $dest -Filter 'testdisk_win.exe' -Recurse -ErrorAction SilentlyContinue|Select-Object -First 1).FullName;if($exe){Start-Process $exe}else{Write-Host 'testdisk_win.exe no encontrado'}
+ENTER
+
+
+
+
