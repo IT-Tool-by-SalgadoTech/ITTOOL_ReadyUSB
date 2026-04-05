@@ -1,4 +1,0 @@
-REM ReadyUSB - Rename files in folder with numerical prefix
-DELAY 1500
-STRING $user=Read-Host "Enter username"; if (Get-LocalUser -Name $user -ErrorAction SilentlyContinue) { Write-Output "🟣  User '$user' exists."; if (Get-LocalGroupMember -Group "Administrators" | Where-Object { $_.Name -match $user }) { Write-Output "✅  User '$user' is in the Administrators group." } else { Write-Output "⚠️  User '$user' is NOT in the Administrators group." } } else { Write-Output "❌  User '$user' does not exist." }
-ENTER

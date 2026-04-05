@@ -1,9 +1,0 @@
-REM Compress files and folders individually into ZIPs (Fixed interactive version)
-REM Ask for source path
-REM Ask for destination path
-REM Create destination folder if not exists
-REM Compress individual files
-REM Compress individual folders
-DELAY 1500
-STRING $source = Read-Host "Enter the source folder path"
-ENTER
