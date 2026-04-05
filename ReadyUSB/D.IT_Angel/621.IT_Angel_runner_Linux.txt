@@ -1,6 +1,0 @@
-DELAY 1000
-STRING curl -L https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/IT_Angel.py -o ~/Desktop/IT_Angel.py
-ENTER
-DELAY 3000
-STRING python3 ~/Desktop/IT_Angel.py
-ENTER
