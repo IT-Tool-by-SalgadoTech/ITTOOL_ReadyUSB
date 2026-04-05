@@ -1,0 +1,3 @@
+DELAY 1000
+STRING pip3 install pygame pyserial --break-system-packages
+ENTER

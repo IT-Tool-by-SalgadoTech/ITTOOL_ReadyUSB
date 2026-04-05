@@ -1,0 +1,3 @@
+DELAY 1000
+STRING apt update && sudo apt upgrade -y
+ENTER

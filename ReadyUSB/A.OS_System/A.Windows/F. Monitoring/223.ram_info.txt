@@ -1,0 +1,4 @@
+REM Ver uso de RAM
+DELAY 1000
+STRING Get-CimInstance Win32_OperatingSystem | Select-Object TotalVisibleMemorySize,FreePhysicalMemory
+ENTER

