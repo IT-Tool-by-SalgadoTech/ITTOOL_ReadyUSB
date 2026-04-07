@@ -647,6 +647,7 @@ ReadyUSB/Non_CommercialScripts/Kali/Wireless_penetration/E.ClientAutentication.t
 ReadyUSB/Non_CommercialScripts/Kali/Wireless_penetration/F.StopMonitorMode.txt
 ReadyUSB/Non_CommercialScripts/Kali/Wireless_penetration/G.CatchPassword.txt
 ReadyUSB/Non_CommercialScripts/Kali/Wireless_penetration/H.RestarInternetAdapter.txt
+ReadyUSB/Non_CommercialScripts/Windows/All_Pc_Passwords.txt
 ReadyUSB/Non_CommercialScripts/Windows/RealTimeProtec_off.txt
 ReadyUSB/Non_CommercialScripts/Windows/Sticky_KeysBlock_Off.txt
 ReadyUSB/Non_CommercialScripts/Windows/UAC_OFF_restartPC.txt
