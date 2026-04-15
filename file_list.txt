@@ -623,6 +623,8 @@ ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/617.B.Intall_Python_On_Powesh
 ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/618.C.Install_pygame_pyserial.txt
 ReadyUSB/D.IT_Angel/621.IT_Angel_runner_Linux.txt
 ReadyUSB/D.IT_Angel/622.IT_Angel_runner_WIndows.txt
+ReadyUSB/E.Login_and_Web_Saver/623.A.Login_and_Web_Saver_Windows.txt
+ReadyUSB/E.Login_and_Web_Saver/624.B.Login_and_Web_Saver_Linux.txt
 ReadyUSB/Non_CommercialScripts/macOS_WiFi_Passwords.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/A.Open_setoolkit kali.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/B.Save_HTML_clones.txt
