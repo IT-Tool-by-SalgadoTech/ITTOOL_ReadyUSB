@@ -1,4 +1,14 @@
-REM Ejecuta OHM si ya está instalado
+DELAY 1800
+STRING $dst="$env:USERPROFILE\Desktop\hwmonitor_1.63.exe";$raw='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/hwmonitor_1.63.exe';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst
+ENTER
+DELAY 2000
+GUI r
 DELAY 1000
-STRING Start-Process "$env:USERPROFILE\Desktop\HWMonitorPortable\HWMonitorPortable.exe"
+STRING powershell -Command "Start-Process powershell -Verb RunAs -WindowStyle Maximized"
+ENTER
+DELAY 4000
+LEFT
+ENTER
+DELAY 1800
+STRING Start-Process "$env:USERPROFILE\Desktop\hwmonitor_1.63.exe"
 ENTER
