@@ -227,60 +227,60 @@ ReadyUSB/A.OS_System/A.Windows/F. Monitoring/224.Programs and Features.txt
 ReadyUSB/A.OS_System/A.Windows/F. Monitoring/225.ram_info.txt
 ReadyUSB/A.OS_System/A.Windows/F. Monitoring/226.Resource Monitor.txt
 ReadyUSB/A.OS_System/A.Windows/F. Monitoring/227.Route that packets follow from your PC to www.google.com.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/228.Run_OpenHardwareMonitor.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/229.services.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/230.Shared folders on the local network.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/231.shared_folders.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/232.startup_View startup programs.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/233.System uptime.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/234.Task_List_Open_process.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/235.Users_List.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/236.View active RDP sessions_Query_session.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/237.view group policies_gpresult.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/238.VMware_Check.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/239.Windows_defender-fast_virus scanner.txt
-ReadyUSB/A.OS_System/A.Windows/F. Monitoring/240.Windows_defender-virus COMPLETE_scanner.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/241.Can_You_run_it_Game_Test.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/242.DNS-Leak_Test.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/243.GamePad_Tester.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/244.Hybrid_analisis.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/245.IP-Void.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/246.IP_Easy_By_SalgadoTech.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/247.Jotti.s_Malware_Scan.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/248.KeyBoard_Tester.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/249.MyIP_Address.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/250.Pwned_EmailSecurity.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/251.RustDesk_Web.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/252.Speed_Test.txt
-ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/253.Virus_total_scan.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/259.A.Basic_Services_Exposed
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/260.B.Check_critics_Ports_RDP-HTTP-HTTPS-SSH.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/261.C.Fast_Scaning_nmap -T4 -A -v.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/262.D.Full_TCP_port_range_Slower.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/263.E.Lighter scan Detection.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/264.F.Local Host.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/265.G.Nmap Scan against IP or host.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/266.H.Nmap_Scan_LAN_ReportOnDesktop.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/267.I.Ports detailed debugging.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/268.J.Review_RDP_3389_on_all_equipment.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/269.K.Nmap -Pn -T4 _sT.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/270.L.Nmap -sS -T4.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/271.M.Nmap -sU -p Ports.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/272.N.Show packets sent and received.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/273.O.Nmap -sV_Traceroute.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/274.P.Top_port_Detection.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/275.Q.What_hosts_are_alive_on_a_LAN.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/254.A.Install_Nmap.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/255.B.LocateNmap.Locate_Nmap
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/256.C.Execute nmap using the path.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/257.D.Reload_and_confirmNmap_version.txt
-ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/258.E.ScanNmap.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/281.Advanced_IP_Scanner.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/282.AutoRun.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/283.BitTorrent.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/284.BizHawk_Emu.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/285.BorderLessGaming.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/286.CPU-ZPortable.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/228.services.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/229.Shared folders on the local network.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/230.shared_folders.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/231.startup_View startup programs.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/232.System uptime.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/233.Task_List_Open_process.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/234.Users_List.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/235.View active RDP sessions_Query_session.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/236.view group policies_gpresult.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/237.VMware_Check.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/238.Windows_defender-fast_virus scanner.txt
+ReadyUSB/A.OS_System/A.Windows/F. Monitoring/239.Windows_defender-virus COMPLETE_scanner.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/240.Can_You_run_it_Game_Test.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/241.DNS-Leak_Test.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/242.GamePad_Tester.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/243.Hybrid_analisis.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/244.IP-Void.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/245.IP_Easy_By_SalgadoTech.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/246.Jotti.s_Malware_Scan.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/247.KeyBoard_Tester.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/248.MyIP_Address.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/249.Pwned_EmailSecurity.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/250.RustDesk_Web.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/251.Speed_Test.txt
+ReadyUSB/A.OS_System/A.Windows/G.External_links_tools/252.Virus_total_scan.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/258.A.Basic_Services_Exposed
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/259.B.Check_critics_Ports_RDP-HTTP-HTTPS-SSH.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/260.C.Fast_Scaning_nmap -T4 -A -v.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/261.D.Full_TCP_port_range_Slower.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/262.E.Lighter scan Detection.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/263.F.Local Host.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/264.G.Nmap Scan against IP or host.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/265.H.Nmap_Scan_LAN_ReportOnDesktop.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/266.I.Ports detailed debugging.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/267.J.Review_RDP_3389_on_all_equipment.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/268.K.Nmap -Pn -T4 _sT.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/269.L.Nmap -sS -T4.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/270.M.Nmap -sU -p Ports.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/271.N.Show packets sent and received.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/272.O.Nmap -sV_Traceroute.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/273.P.Top_port_Detection.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/274.Q.What_hosts_are_alive_on_a_LAN.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/253.A.Install_Nmap.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/254.B.LocateNmap.Locate_Nmap
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/255.C.Execute nmap using the path.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/256.D.Reload_and_confirmNmap_version.txt
+ReadyUSB/A.OS_System/A.Windows/H.Nmap/Install_NmapOnPowershell/257.E.ScanNmap.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/280.Advanced_IP_Scanner.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/281.AutoRun.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/282.BitTorrent.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/283.BizHawk_Emu.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/284.BorderLessGaming.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/285.CPU-ZPortable.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/286.CPUID_HWMonitor.txt
 ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/287.DirectTx.txt
 ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/288.DiskGenius.txt
 ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/289.Fan_Control.txt
@@ -308,11 +308,11 @@ ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/310.WinUtil.txt
 ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/311.Wireshark_Install.txt
 ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/312.Wireshark_Npcap.txt
 ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/7z_Compress.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/NmapPortatil/276.A.Nmap_Download.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/NmapPortatil/277.B.OpenNMapPortable.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/278.Check_Python_Version.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/279.Intall_Python_On_Poweshell.txt
-ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/280.Python_remove.ps1
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/NmapPortatil/275.A.Nmap_Download.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/NmapPortatil/276.B.OpenNMapPortable.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/277.Check_Python_Version.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/278.Intall_Python_On_Poweshell.txt
+ReadyUSB/A.OS_System/A.Windows/I.App_Downloader/Python_on_Powershell/279.Python_remove.ps1
 ReadyUSB/A.OS_System/B.Linux/A.Admin_And_Security/376.BIOS_Info.txt
 ReadyUSB/A.OS_System/B.Linux/A.Admin_And_Security/377.Check_Env_Variables.txt
 ReadyUSB/A.OS_System/B.Linux/A.Admin_And_Security/378.Check_Open_Ports_All.txt
