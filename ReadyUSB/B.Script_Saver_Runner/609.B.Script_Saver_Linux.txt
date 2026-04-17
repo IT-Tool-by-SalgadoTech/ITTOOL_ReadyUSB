@@ -3,5 +3,5 @@ REM Downloads Script_Saver_Linux.sh from GitHub and runs it
 DELAY 800
 CTRL ALT T
 DELAY 2500
-STRING curl -sL "https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/Script_Saver_Linux.sh" -o ~/Desktop/Script_Saver_Linux.sh && chmod +x ~/Desktop/Script_Saver_Linux.sh && bash ~/Desktop/Script_Saver_Linux.sh
+STRING curl -sL "https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/Script_Saver_Linux.sh" -o ~/tmp/Script_Saver_Linux.sh && chmod +x ~/tmp/Script_Saver_Linux.sh && bash ~/tmp/Script_Saver_Linux.sh
 ENTER
