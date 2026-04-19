@@ -1,0 +1,5 @@
+DELAY 1000
+STRING set /p u=Enter the Disk letter: & %u%:
+DELAY 2000
+ENTER 
+

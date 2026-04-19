@@ -1,0 +1,4 @@
+DELAY 800
+STRING printf "NETWORK_NAME: "; read NETWORK_NAME; cmd="sudo airmon-ng stop $NETWORK_NAME"; print -z -- "$cmd"
+DELAY 1800
+ENTER
