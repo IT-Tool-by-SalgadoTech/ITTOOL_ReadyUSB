@@ -1,0 +1,3 @@
+DELAY 1500
+STRING $Url="https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/win32diskimager-1.0.0-install.exe";$Dest=Join-Path $env:USERPROFILE "Desktop\win32diskimager-1.0.0-install.exe";Write-Host "Downloading Win32 Disk Imager installer..." -ForegroundColor Cyan;if(Test-Path $Dest){Remove-Item $Dest -Force};Invoke-WebRequest -Uri $Url -OutFile $Dest -UseBasicParsing;Write-Host "Download completed: $Dest" -ForegroundColor Green;Write-Host "Launching installer..." -ForegroundColor Cyan;Start-Process -FilePath $Dest -Verb RunAs
+ENTER

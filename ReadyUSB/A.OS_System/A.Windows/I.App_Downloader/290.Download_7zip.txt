@@ -1,0 +1,4 @@
+DELAY 1500
+STRING $u="https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/7z2501-x64.exe"; $d=Join-Path $env:USERPROFILE "Desktop\7z2501-x64.exe"; Invoke-WebRequest -Uri $u -OutFile $d -Headers @{'User-Agent'='Mozilla/5.0'}; Start-Process $d
+ENTER
+

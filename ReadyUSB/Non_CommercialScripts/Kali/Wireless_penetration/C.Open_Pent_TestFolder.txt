@@ -1,4 +1,0 @@
-DELAY 800
-STRING cd Desktop; cd wifi_pentest
-DELAY 1800
-ENTER

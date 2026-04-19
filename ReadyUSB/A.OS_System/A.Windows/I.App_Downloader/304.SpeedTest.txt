@@ -1,0 +1,2 @@
+STRING $u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/speedtestbyookla_x64.msi';$d=Join-Path $env:TEMP ("Speedtest_by_Ookla_{0}.msi" -f ([guid]::NewGuid().ToString('N')));Invoke-WebRequest -Uri $u -OutFile $d;Start-Process msiexec -ArgumentList "/i `"$d`"" 
+ENTER 

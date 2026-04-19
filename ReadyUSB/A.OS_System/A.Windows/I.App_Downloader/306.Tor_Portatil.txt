@@ -1,0 +1,4 @@
+DELAY 1800
+STRING $u="https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/releases/download/v2025.11.06/Tor.BrowserPortatil.zip"; $d="$env:USERPROFILE\Desktop\Tor.BrowserPortatil.zip"; Invoke-WebRequest -Uri $u -OutFile $d
+ENTER
+

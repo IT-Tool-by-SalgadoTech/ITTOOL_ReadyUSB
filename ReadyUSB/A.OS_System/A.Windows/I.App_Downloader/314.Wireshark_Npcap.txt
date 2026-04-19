@@ -1,0 +1,6 @@
+DELAY 1000
+STRING Write-Host "Downloading Wireshark Installer..." -ForegroundColor Cyan;$wiresharkUrl="https://www.wireshark.org/download/win64/Wireshark-latest-x64.exe";$dest=Join-Path $env:USERPROFILE "Desktop\WiresharkInstaller.exe";if(Test-Path $dest){Remove-Item $dest -Force};Invoke-WebRequest -Uri $wiresharkUrl -OutFile $dest -UseBasicParsing;if(Test-Path $dest){Write-Host "Wireshark installer downloaded to: $dest" -ForegroundColor Green;Write-Host "Launching installer..." -ForegroundColor Cyan;Start-Process -FilePath $dest -Verb RunAs}else{Write-Host "ERROR: Download failed, installer file not found." -ForegroundColor Red}
+ENTER
+
+
+
