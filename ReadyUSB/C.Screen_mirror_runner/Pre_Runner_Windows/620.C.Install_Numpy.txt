@@ -1,0 +1,3 @@
+DELAY 1000
+STRING py -m pip install numpy
+ENTER
