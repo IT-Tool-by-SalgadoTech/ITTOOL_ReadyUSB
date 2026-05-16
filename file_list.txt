@@ -621,6 +621,7 @@ ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/616.E.Serial_PortPermises.txt
 ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/617.F..Check_ITTOOL_Conection.txt
 ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/618.A.Check_Python_Version.txt
 ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/619.B.Intall_Python_On_Poweshell.txt
+ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/620.C.Install_Numpy.txt
 ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/620.C.Install_pygame_pyserial.txt
 ReadyUSB/D.IT_Angel/623.IT_Angel_runner_Linux.txt
 ReadyUSB/D.IT_Angel/624.IT_Angel_runner_WIndows.txt
