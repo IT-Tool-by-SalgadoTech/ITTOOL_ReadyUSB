@@ -1,3 +1,8 @@
 DELAY 1800
-STRING Get-Process -Name 'RufusPortable*','Rufus*' -ErrorAction SilentlyContinue | Stop-Process -Force;$u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/RufusPortable_4.9.paf.exe';$exe=Join-Path $env:TEMP 'RufusPortable_4.9.paf.exe';$dst=Join-Path $env:TEMP 'RufusPortable';[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;Remove-Item $exe -Force -ErrorAction SilentlyContinue;New-Item -ItemType Directory -Path $dst -Force|Out-Null;try{Invoke-WebRequest -Uri $u -OutFile $exe -ErrorAction Stop}catch{Write-Host "❌ Descarga falló: $($_.Exception.Message)";exit 1};$p=Start-Process -FilePath $exe -ArgumentList '/S',"/D=$dst" -PassThru;$p.WaitForExit();$main=Join-Path $dst 'RufusPortable.exe';if(Test-Path $main){Start-Process -FilePath $main -WorkingDirectory $dst}else{$f=Get-ChildItem $dst -Recurse -Filter 'RufusPortable.exe' -ErrorAction SilentlyContinue|Select-Object -First 1;if($f){Start-Process $f.FullName}else{Write-Host '❌ No se encontró el ejecutable.'}}
-ENTER 
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','302.Rufus_portable.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/302.Rufus_portable.ps1' -o $dst
+& $dst
+END_STRINGLN

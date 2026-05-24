@@ -1,5 +1,8 @@
-REM EXTERNO A LOCAL_MIR - Copia espejo desde red a local (ReadyUSB interactivo)
-REM Solicita rutas origen y destino
-DELAY 1500
-STRING $source=Read-Host "Enter network source (e.g. \\IP\Share)"; $destination=Read-Host "Enter local destination path"; robocopy $source $destination /MIR
-ENTER
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','141.I._EXTERNO_A_LOCAL_MIR.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/C.Folder_and_Files/A.Robocopy/141.I._EXTERNO_A_LOCAL_MIR.ps1' -o $dst
+& $dst
+END_STRINGLN

@@ -1,3 +1,8 @@
-DELAY 1500
-STRING powershell -Command "$u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/ProcessExplorer/procexp64.exe';$d=\"$env:TEMP\procexp64.exe\";Invoke-WebRequest -Uri $u -OutFile $d;reg add 'HKCU\Software\Sysinternals\Process Explorer' /v EulaAccepted /t REG_DWORD /d 1 /f | Out-Null;Unblock-File -Path $d -ErrorAction SilentlyContinue;if(Get-Item $d -Stream 'Zone.Identifier' -ErrorAction SilentlyContinue){Remove-Item $d -Stream 'Zone.Identifier' -Force -ErrorAction SilentlyContinue};Start-Process -FilePath $d -Verb runAs"
-ENTER
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','299.Process_Explorer.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/299.Process_Explorer.ps1' -o $dst
+& $dst
+END_STRINGLN

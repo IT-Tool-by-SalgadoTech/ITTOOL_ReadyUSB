@@ -6,4 +6,3 @@ if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Nu
 curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/C.Font_Color_CMD_Powershell/17.FontColorPowershell2.ps1' -o $dst
 & $dst
 END_STRINGLN
-ENTER

@@ -1,3 +1,8 @@
-DELAY 1500
-STRING $Url="https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/win32diskimager-1.0.0-install.exe";$Dest=Join-Path $env:USERPROFILE "Desktop\win32diskimager-1.0.0-install.exe";Write-Host "Downloading Win32 Disk Imager installer..." -ForegroundColor Cyan;if(Test-Path $Dest){Remove-Item $Dest -Force};Invoke-WebRequest -Uri $Url -OutFile $Dest -UseBasicParsing;Write-Host "Download completed: $Dest" -ForegroundColor Green;Write-Host "Launching installer..." -ForegroundColor Cyan;Start-Process -FilePath $Dest -Verb RunAs
-ENTER
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','310.Win32_Disk_Imager.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/310.Win32_Disk_Imager.ps1' -o $dst
+& $dst
+END_STRINGLN

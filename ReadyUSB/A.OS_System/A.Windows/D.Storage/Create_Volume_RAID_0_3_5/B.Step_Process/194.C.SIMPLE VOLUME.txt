@@ -1,4 +1,8 @@
-REM HWMonitor Portable: descarga, instalación silenciosa y ejecución (elevado)
 DELAY 1800
-STRING $diskNum=Read-Host "Disk number (ej. 0)"; $letter=(Read-Host "Drive letter (ej. E)").TrimEnd(':').ToUpper(); $label=Read-Host "Volume label (ej. DATA)"; $d=Get-Disk -Number $diskNum -ErrorAction Stop; if($d.IsSystem -or $d.IsBoot){Write-Host "ABORT: Ese disco es System/Boot."; exit}; $tmp=Join-Path $env:TEMP ("simple_{0}.txt" -f ([guid]::NewGuid().ToString('N'))); $lines=@("select disk $diskNum","online disk noerr","attributes disk clear readonly","convert gpt noerr","rescan","create partition primary","format fs=ntfs label=`"$label`" quick","assign letter=$letter","exit"); $lines | Set-Content -Path $tmp -Encoding ASCII; diskpart /s $tmp; Remove-Item $tmp -Force -ErrorAction SilentlyContinue
-ENTER
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','194.C.SIMPLE_VOLUME.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/D.Storage/Create_Volume_RAID_0_3_5/B.Step_Process/194.C.SIMPLE_VOLUME.ps1' -o $dst
+& $dst
+END_STRINGLN

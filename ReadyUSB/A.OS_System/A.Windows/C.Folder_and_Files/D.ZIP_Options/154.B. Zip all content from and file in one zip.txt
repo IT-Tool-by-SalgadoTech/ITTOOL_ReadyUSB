@@ -1,5 +1,8 @@
-REM Zip all content from a folder into one ZIP file (ReadyUSB - English version)
-REM Compress the entire folder into one ZIP file
-DELAY 1500
-STRING $sourceFolder=Read-Host "Enter source folder"; $zipFile=Read-Host "Enter full path for the output ZIP file (e.g. C:\output.zip)"; Compress-Archive -Path "$sourceFolder\*" -DestinationPath $zipFile -Force; Write-Host "✅ All content was compressed into a single ZIP file."
-ENTER
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','154.B._Zip_all_content_from_and_file_in_one_zip.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/C.Folder_and_Files/D.ZIP_Options/154.B._Zip_all_content_from_and_file_in_one_zip.ps1' -o $dst
+& $dst
+END_STRINGLN
