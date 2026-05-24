@@ -1,3 +1,9 @@
-DELAY 500
-STRING $a=Get-NetIPInterface|Where{$_.ConnectionState -eq 'Connected'}|Select ifIndex,InterfaceAlias;$c=Get-NetTCPConnection|Where{$_.State -eq 'Established'}|Select LocalAddress,LocalPort,RemoteAddress,RemotePort,State,OwningProcess;$o=@();foreach($conn in $c){$r=Get-NetRoute -DestinationPrefix '0.0.0.0/0'|Sort RouteMetric|Select -First 1;$ad=$a|Where{$_.ifIndex -eq $r.ifIndex};$p=Get-Process -Id $conn.OwningProcess -ErrorAction SilentlyContinue;$o+=('[{0}] {1}:{2} --> {3}:{4} (via: {5})'-f $p.ProcessName,$conn.LocalAddress,$conn.LocalPort,$conn.RemoteAddress,$conn.RemotePort,$ad.InterfaceAlias)};$o|Out-File -Encoding ASCII "$env:USERPROFILE\Desktop\NetReport.txt";notepad "$env:USERPROFILE\Desktop\NetReport.txt"
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','121.OpenConections_WithPorts.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/B.Networks/121.OpenConections_WithPorts.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

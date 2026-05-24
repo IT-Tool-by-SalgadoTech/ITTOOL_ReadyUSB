@@ -1,3 +1,9 @@
-DELAY 1500
-STRING $mode=(Read-Host "Mode (E/D/Encrypt/Decrypt)").Trim().ToUpper();$mode=if($mode.StartsWith("E")){"E"}elseif($mode.StartsWith("D")){"D"}else{$mode};$f=Read-Host "Enter file path";if(!(Test-Path -LiteralPath $f -PathType Leaf)){Write-Host "File not found"}elseif($mode -eq "E"){$m=(Read-Host "Method EFS/CMS").Trim().ToUpper();if($m -eq "EFS"){cipher /E /A /I /F /H "$f" | Out-Host;Write-Host "EFS encrypted"}elseif($m -eq "CMS"){$c=Get-ChildItem Cert:\CurrentUser\My | ?{$_.EnhancedKeyUsageList.FriendlyName -contains "Document Encryption"} | Select -First 1;if(-not $c){$c=New-SelfSignedCertificate -Subject "CN=IT-Tool File Encrypt" -CertStoreLocation "Cert:\CurrentUser\My" -KeyUsage KeyEncipherment,DataEncipherment -Type DocumentEncryptionCert};$o="$f.p7m";Protect-CmsMessage -To $c -Path $f -OutFile $o;Write-Host "CMS encrypted -> $o (decrypt: run this tool again, Mode=D, then output FULL file path)"}else{Write-Host "Invalid method (use EFS or CMS)"}}elseif($mode -eq "D"){if($f.ToLower().EndsWith(".p7m")){$o=Read-Host "Output FULL file path (example: C:\Users\chefm\Desktop\file.txt)";(Unprotect-CmsMessage -Path $f) | Set-Content -LiteralPath $o -Encoding UTF8;Write-Host "CMS decrypted -> $o"}else{cipher /D /A "$f" | Out-Host;Write-Host "EFS decrypted"}}else{Write-Host "Invalid mode"}
-ENTER 
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','175.Encrypt_Decrypt_Files.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/C.Folder_and_Files/175.Encrypt_Decrypt_Files.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
+ENTER

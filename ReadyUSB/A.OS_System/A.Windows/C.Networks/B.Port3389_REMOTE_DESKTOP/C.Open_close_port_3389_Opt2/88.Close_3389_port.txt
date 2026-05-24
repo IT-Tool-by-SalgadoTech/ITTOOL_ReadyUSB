@@ -1,4 +1,9 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 1000
-STRING reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 1 /f >$null; Disable-NetFirewallRule -DisplayGroup "Remote Desktop" -ea SilentlyContinue; Get-NetFirewallRule | ?{ $_.Action -eq 'Allow' -and (Get-NetFirewallPortFilter -AssociatedNetFirewallRule $_ -ea SilentlyContinue | %{$_.LocalPort}) -contains 3389 } | Remove-NetFirewallRule -ea SilentlyContinue; Get-NetFirewallRule -DisplayName "Block Port 3389*" -ea SilentlyContinue | Remove-NetFirewallRule -ea SilentlyContinue; New-NetFirewallRule -DisplayName "Block Port 3389 (TCP-In)" -Direction Inbound -Action Block -Protocol TCP -LocalPort 3389 -Profile Any -Enabled True -ea SilentlyContinue | Out-Null; New-NetFirewallRule -DisplayName "Block Port 3389 (UDP-In)" -Direction Inbound -Action Block -Protocol UDP -LocalPort 3389 -Profile Any -Enabled True -ea SilentlyContinue | Out-Null; New-NetFirewallRule -DisplayName "Block Port 3389 (All-In)" -Direction Inbound -Action Block -Protocol Any -LocalPort 3389 -Profile Any -Enabled True -ea SilentlyContinue | Out-Null; Stop-Service -Name TermService -Force -ea SilentlyContinue; Set-Service -Name TermService -StartupType Manual; Get-NetFirewallRule | ?{ (Get-NetFirewallPortFilter -AssociatedNetFirewallRule $_ -ea SilentlyContinue | %{$_.LocalPort}) -contains 3389 } | Select DisplayName,Action,Direction,Profile,Enabled | ft -Auto
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','88.Close_3389_port.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/B.Networks/B.Port3389_REMOTE_DESKTOP/C.Open_close_port_3389_Opt2/88.Close_3389_port.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

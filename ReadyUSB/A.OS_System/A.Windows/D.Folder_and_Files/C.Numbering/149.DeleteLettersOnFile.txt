@@ -1,3 +1,9 @@
-DELAY 1500
-STRING $path=Read-Host "Enter folder path"; Get-ChildItem -LiteralPath $path -File | ForEach-Object { $bn=$_.BaseName; $ext=$_.Extension; $dir=$_.DirectoryName; $core=[regex]::Replace($bn,'^\s*\p{L}+\.\s*',''); if($core -eq $bn){return}; $cand="$core$ext"; $n=1; while(Test-Path (Join-Path $dir $cand)){$cand="$core ($n)$ext";$n++}; Rename-Item -LiteralPath $_.FullName -NewName $cand -Force }
-ENTER 
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','149.DeleteLettersOnFile.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/C.Folder_and_Files/C.Numbering/149.DeleteLettersOnFile.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
+ENTER

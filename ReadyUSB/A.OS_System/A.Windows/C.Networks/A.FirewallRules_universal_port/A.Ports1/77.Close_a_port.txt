@@ -1,4 +1,9 @@
-REM Cierra puerto universalmente: elimina regla Allow y bloquea en Firewall
-DELAY 1500
-STRING $p=Read-Host "Enter port to close"; $tcp=Get-NetTCPConnection -State Listen -LocalPort $p -ErrorAction SilentlyContinue; $udp=Get-NetUDPEndpoint -LocalPort $p -ErrorAction SilentlyContinue; $procs=@(); if($tcp){$procs+=$tcp|Select-Object -Expand OwningProcess -Unique}; if($udp){$procs+=$udp|Select-Object -Expand OwningProcess -Unique}; $procs=$procs|Sort-Object -Unique; if(!$procs){Write-Host "No listener on port $p";return}; foreach($procId in $procs){ $svcs=Get-CimInstance Win32_Service -Filter "ProcessId=$procId" -ErrorAction SilentlyContinue; if($svcs){ $svcs|ForEach-Object{ sc.exe config $_.Name start= disabled | Out-Null; Stop-Service -Name $_.Name -Force -ErrorAction SilentlyContinue; Write-Host "Disabled+Stopped service $($_.Name) (PID $procId)" } } else { Stop-Process -Id $procId -Force -ErrorAction SilentlyContinue; Write-Host "Killed PID $procId" } }; Start-Sleep 1; if((Get-NetTCPConnection -State Listen -LocalPort $p -ErrorAction SilentlyContinue) -or (Get-NetUDPEndpoint -LocalPort $p -ErrorAction SilentlyContinue)){Write-Host "Port $p is STILL listening."} else {Write-Host "Port $p is CLOSED."}
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','77.Close_a_port.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/B.Networks/A.FirewallRules_universal_port/A.Ports1/77.Close_a_port.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

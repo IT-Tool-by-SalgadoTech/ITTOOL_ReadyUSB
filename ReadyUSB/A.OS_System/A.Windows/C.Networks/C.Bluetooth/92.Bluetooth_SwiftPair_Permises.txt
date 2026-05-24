@@ -1,3 +1,9 @@
-DELAY 4000
-STRING reg add "HKCU\Software\Microsoft\Bluetooth\BluetoothSettings" /v EnableSwiftPair /t REG_DWORD /d 0 /f; Stop-Service bthserv -Force -ErrorAction SilentlyContinue; Stop-Service DeviceAssociationService -Force -ErrorAction SilentlyContinue; Stop-Service DeviceInstall -Force -ErrorAction SilentlyContinue; Stop-Service hidserv -Force -ErrorAction SilentlyContinue; Get-Service "BluetoothUserService*" -ErrorAction SilentlyContinue | Stop-Service -Force; Start-Sleep -Milliseconds 800; Start-Service DeviceInstall; Start-Service DeviceAssociationService; Start-Service hidserv; Start-Service bthserv; Get-NetAdapter -Name "*Bluetooth*" -ErrorAction SilentlyContinue | Disable-NetAdapter -Confirm:$false; Start-Sleep -Milliseconds 800; Get-NetAdapter -Name "*Bluetooth*" -ErrorAction SilentlyContinue | Enable-NetAdapter -Confirm:$false
-ENTER 
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','92.Bluetooth_SwiftPair_Permises.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/B.Networks/C.Bluetooth/92.Bluetooth_SwiftPair_Permises.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
+ENTER

@@ -1,4 +1,0 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 4000
-STRING Start-Process powershell -ArgumentList \"Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\USBSTOR' -Name 'Start' -Value 4\" -Verb runAs
-ENTER

@@ -1,4 +1,9 @@
-REM Instala y ejecuta CPU-Z Portable desde GitHub (elevado)
-DELAY 1500
-STRING Get-Process -Name '*cpuz*','CPU-Z*' -ErrorAction SilentlyContinue | Stop-Process -Force;$u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/CPU-ZPortable_2.16_English.paf.exe';$exe=Join-Path $env:TEMP 'CPU-ZPortable_2.16_English.paf.exe';$dst=Join-Path $env:TEMP 'CPUZPortable';Invoke-WebRequest -Uri $u -OutFile $exe;New-Item -ItemType Directory -Path $dst -Force|Out-Null;Start-Process -FilePath $exe -ArgumentList '/S',"/D=$dst" -Wait;$l=Join-Path $dst 'CPU-ZPortable.exe';if(Test-Path $l){Start-Process -FilePath $l -WorkingDirectory $dst}else{$f=Get-ChildItem $dst -Recurse -Filter 'cpuz*.exe' -ErrorAction SilentlyContinue|Select-Object -First 1;if($f){Start-Process $f.FullName}else{Write-Host '❌ No se encontró el ejecutable.'}}
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','286.CPU-ZPortable.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/286.CPU-ZPortable.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

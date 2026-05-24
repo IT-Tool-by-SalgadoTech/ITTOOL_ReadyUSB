@@ -1,25 +1,9 @@
-﻿DELAY 1000
+DELAY 1800
 STRINGLN
-$ErrorActionPreference = "Stop"
-
-Write-Host "Installing Wireshark..."
-winget install --id WiresharkFoundation.Wireshark --exact --silent --accept-package-agreements --accept-source-agreements
-
-Write-Host ""
-Write-Host "Verifying installation..."
-$wiresharkExe = "$env:ProgramFiles\Wireshark\Wireshark.exe"
-
-if (-not (Test-Path $wiresharkExe)) {
-    $wiresharkExe = "${env:ProgramFiles(x86)}\Wireshark\Wireshark.exe"
-}
-
-if (Test-Path $wiresharkExe) {
-    Write-Host "Wireshark installed successfully: $wiresharkExe"
-    Write-Host "Opening Wireshark..."
-    Start-Process $wiresharkExe
-} else {
-    Write-Host "Wireshark may have been installed, but the executable was not found in the usual path."
-    Write-Host "Check manually from the Start menu."
-}
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','314.Wireshark_Install.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/314.Wireshark_Install.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
 END_STRINGLN
 ENTER

@@ -1,4 +1,9 @@
-REM Ejecutar netstat -ab desde PowerShell como administrador
-DELAY 1000
-STRING $g='{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}'; Get-PnpDevice | Where-Object { $_.ClassGuid -eq $g -and $_.Status -eq 'OK' } | ForEach-Object { Disable-PnpDevice -InstanceId $_.InstanceId -Confirm:$false -ErrorAction SilentlyContinue }; Stop-Service bthserv -ErrorAction SilentlyContinue
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','90.Bluetooth_Off.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/B.Networks/C.Bluetooth/90.Bluetooth_Off.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

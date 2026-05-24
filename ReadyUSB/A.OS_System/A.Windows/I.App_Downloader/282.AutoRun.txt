@@ -1,4 +1,9 @@
-REM Instala y ejecuta CPU-Z Portable desde GitHub (elevado)
-DELAY 1500
-STRING $u='https://raw.githubusercontent.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/main/Autoruns/Autoruns641.exe'; $d=Join-Path $env:TEMP 'Autoruns641.exe'; [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri $u -OutFile $d -Headers @{ 'User-Agent'='Mozilla/5.0' }; reg add 'HKCU\Software\Sysinternals\Autoruns' /v EulaAccepted /t REG_DWORD /d 1 /f | Out-Null; & $d
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','282.AutoRun.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/282.AutoRun.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

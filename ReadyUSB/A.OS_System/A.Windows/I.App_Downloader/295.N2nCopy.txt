@@ -1,3 +1,9 @@
-DELAY 1500
-STRING $u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/n2ncopy_en.zip';$dl="$env:USERPROFILE\Downloads";$desk=[Environment]::GetFolderPath('Desktop');$z=Join-Path $dl 'n2ncopy_en.zip';$base=Join-Path $desk 'n2ncopy_en';$exe=Join-Path $base 'n2ncopy.exe';Remove-Item $base -Recurse -Force -ErrorAction SilentlyContinue;Invoke-WebRequest -Uri $u -OutFile $z;Expand-Archive -Path $z -DestinationPath $desk -Force;if(-not(Test-Path $exe)){$exe=(Get-ChildItem -Path $base -Recurse -Filter 'n2ncopy.exe' -File -ErrorAction SilentlyContinue|Select-Object -First 1).FullName};if(-not $exe){Write-Host '❌ n2ncopy.exe no encontrado tras extraer';exit};Unblock-File -Path $exe -ErrorAction SilentlyContinue;Start-Process -FilePath $exe -WorkingDirectory (Split-Path $exe -Parent);Write-Host "✅ Lanzado: $exe"
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','295.N2nCopy.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/295.N2nCopy.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

@@ -1,3 +1,9 @@
-DELAY 1500
-STRING powershell -ExecutionPolicy Bypass -Command "reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v DisplayName /t REG_EXPAND_SZ /d '@%SystemRoot%\system32\wudfsvc.dll,-200' /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v ErrorControl /t REG_DWORD /d 1 /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v ImagePath /t REG_EXPAND_SZ /d '%SystemRoot%\system32\svchost.exe -k LocalSystemNetworkRestricted -p' /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v Start /t REG_DWORD /d 2 /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v Type /t REG_DWORD /d 32 /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v DependOnService /t REG_MULTI_SZ /d 'RpcSs' /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v ServiceSidType /t REG_DWORD /d 1 /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v Description /t REG_EXPAND_SZ /d '@%SystemRoot%\system32\wudfsvc.dll,-201' /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc' /v ObjectName /t REG_SZ /d 'NT AUTHORITY\LocalService' /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc\Parameters' /v ServiceDll /t REG_EXPAND_SZ /d '%SystemRoot%\system32\wudfsvc.dll' /f; reg add 'HKLM\SYSTEM\CurrentControlSet\Services\WudfSvc\Parameters' /v ServiceMain /t REG_SZ /d 'WudfSvc' /f"
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','69.Restore_Service_Key.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/69.Restore_Service_Key.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

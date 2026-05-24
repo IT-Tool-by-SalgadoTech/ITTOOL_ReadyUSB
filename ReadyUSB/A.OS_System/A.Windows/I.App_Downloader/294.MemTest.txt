@@ -1,3 +1,9 @@
 DELAY 1800
-STRING Get-Process -Name 'MemTest64*' -ErrorAction SilentlyContinue | Stop-Process -Force;$u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/MemTest64.exe';$exe=Join-Path $env:TEMP 'MemTest64.exe';[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;Remove-Item $exe -Force -ErrorAction SilentlyContinue;try {Invoke-WebRequest -Uri $u -OutFile $exe -ErrorAction Stop} catch {Write-Host "❌ Descarga falló: $($_.Exception.Message)";exit 1};if (Test-Path $exe) {Start-Process -FilePath $exe} else {Write-Host '❌ No se encontró el ejecutable descargado.'}
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','294.MemTest.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/294.MemTest.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

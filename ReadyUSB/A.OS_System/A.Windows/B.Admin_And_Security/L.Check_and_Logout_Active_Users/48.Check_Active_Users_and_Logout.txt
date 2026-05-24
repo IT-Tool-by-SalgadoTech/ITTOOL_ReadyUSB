@@ -1,3 +1,9 @@
-DELAY 1500
-STRING Write-Host "`nCurrent logged-on sessions:`n" -ForegroundColor Cyan; query user; $sessionID = Read-Host "`nEnter the User ID (Session ID) to log off"; Write-Host "`nLogging off session ID $sessionID ..." -ForegroundColor Yellow; logoff $sessionID; Write-Host "Done." -ForegroundColor Green
-ENTER 
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','48.Check_Active_Users_and_Logout.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/L.Check_and_Logout_Active_Users/48.Check_Active_Users_and_Logout.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
+ENTER

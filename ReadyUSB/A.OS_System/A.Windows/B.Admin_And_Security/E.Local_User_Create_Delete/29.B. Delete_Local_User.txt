@@ -1,4 +1,0 @@
-REM Eliminar usuario local desde PowerShell como administrador (interactivo)
-DELAY 1500
-STRING $user=Read-Host "Enter username to delete"; Remove-LocalUser -Name $user
-ENTER

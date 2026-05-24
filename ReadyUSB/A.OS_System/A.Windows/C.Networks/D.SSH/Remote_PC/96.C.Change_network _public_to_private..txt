@@ -1,3 +1,0 @@
-DELAY 1500
-STRING Get-NetConnectionProfile | ft -Auto Name,InterfaceAlias,NetworkCategory,IPv4Connectivity; Get-NetConnectionProfile | ? { $_.NetworkCategory -eq 'Public' } | % { Set-NetConnectionProfile -InterfaceAlias $_.InterfaceAlias -NetworkCategory Private }; Get-NetConnectionProfile | ft -Auto Name,InterfaceAlias,NetworkCategory,IPv4Connectivity
-ENTER

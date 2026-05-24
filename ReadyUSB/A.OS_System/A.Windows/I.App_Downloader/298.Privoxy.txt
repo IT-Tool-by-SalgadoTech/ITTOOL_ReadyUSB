@@ -1,3 +1,9 @@
 DELAY 1800
-STRING $u='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/privoxy_setup_4.0.0.exe';$d=Join-Path $env:TEMP ("Privoxy_{0}.exe" -f ([guid]::NewGuid().ToString('N')));Invoke-WebRequest -Uri $u -OutFile $d;Start-Process $d
-ENTER  
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','298.Privoxy.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/298.Privoxy.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
+ENTER

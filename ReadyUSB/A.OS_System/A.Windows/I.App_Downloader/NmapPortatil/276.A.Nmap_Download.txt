@@ -1,5 +1,9 @@
-REM Download NMap
-
-DELAY 1500
-STRING $Url="https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/NmapPortable_7.12.paf.exe";$Dest=Join-Path $env:USERPROFILE "Desktop\NmapPortable_7.12.paf.exe";Write-Host "Descargando Nmap Portable desde GitHub..." -ForegroundColor Cyan;if(Test-Path $Dest){Remove-Item $Dest -Force};Invoke-WebRequest -Uri $Url -OutFile $Dest -UseBasicParsing;Write-Host "Descarga completada: $Dest" -ForegroundColor Green;Write-Host "Iniciando instalador de Nmap Portable..." -ForegroundColor Cyan;Start-Process -FilePath $Dest -Verb RunAs
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','276.A.Nmap_Download.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/H.App_Downloader/NmapPortatil/276.A.Nmap_Download.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

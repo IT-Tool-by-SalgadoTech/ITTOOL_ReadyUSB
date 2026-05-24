@@ -1,3 +1,9 @@
-DELAY 1500
-STRING $r=[regex]'VID_([0-9A-F]{4})&PID_([0-9A-F]{4})'; Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match 'VID_' } | ForEach-Object { $m=$r.Match($_.InstanceId); if($m.Success){ [pscustomobject]@{ Name=$_.FriendlyName; VID=$m.Groups[1].Value; PID=$m.Groups[2].Value } } } | Format-Table -AutoSize
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','210.Check_VID_PID_Dispositives.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/E.%20Monitoring/210.Check_VID_PID_Dispositives.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

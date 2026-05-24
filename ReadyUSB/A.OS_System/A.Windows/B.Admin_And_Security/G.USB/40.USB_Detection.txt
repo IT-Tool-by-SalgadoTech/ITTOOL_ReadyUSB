@@ -1,14 +1,9 @@
 DELAY 1800
-STRING $dst="$env:USERPROFILE\Desktop\usb_monitor.py";$raw='https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/usb_monitor.py';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst
-ENTER
-DELAY 2000
-GUI r
-DELAY 1000
-STRING powershell -Command "Start-Process powershell -Verb RunAs -WindowStyle Maximized"
-ENTER
-DELAY 4000
-LEFT
-ENTER
-DELAY 1800
-STRING cd $HOME/Desktop; python .\usb_monitor.py
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','40.USB_Detection.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/G.USB/40.USB_Detection.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

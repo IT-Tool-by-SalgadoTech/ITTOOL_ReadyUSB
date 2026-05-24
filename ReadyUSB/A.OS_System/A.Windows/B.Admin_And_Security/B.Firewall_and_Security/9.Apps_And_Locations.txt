@@ -1,3 +1,9 @@
-DELAY 1000
-STRING $paths=@('HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*','HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'); Get-ItemProperty $paths -ErrorAction SilentlyContinue | Where-Object { $_.DisplayName -and $_.InstallDate } | ForEach-Object { $raw=$_.InstallDate.ToString().Trim(); $dt=$null; if($raw -match '^\d{8}$'){ try{$dt=[datetime]::ParseExact($raw,'yyyyMMdd',$null)}catch{$dt=$null} } else { try{$dt=[datetime]::Parse($raw)}catch{$dt=$null} }; [pscustomobject]@{ InstallDate=($(if($dt){$dt.ToString('yyyy-MM-dd')}else{$raw})); DisplayName=$_.DisplayName; InstallLocation=$_.InstallLocation } } | Sort-Object InstallDate -Descending | Format-List
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','9.Apps_And_Locations.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/B.Firewall_and_Security/9.Apps_And_Locations.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER

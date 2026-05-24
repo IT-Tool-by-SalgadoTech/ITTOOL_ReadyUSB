@@ -1,4 +1,9 @@
-REM ReadyUSB - Rename files in folder with numerical prefix
-DELAY 1500
-STRING $user=Read-Host "Enter username"; if (Get-LocalUser -Name $user -ErrorAction SilentlyContinue) { Write-Output "🟣  User '$user' exists."; if (Get-LocalGroupMember -Group "Administrators" | Where-Object { $_.Name -match $user }) { Write-Output "✅  User '$user' is in the Administrators group." } else { Write-Output "⚠️  User '$user' is NOT in the Administrators group." } } else { Write-Output "❌  User '$user' does not exist." }
+DELAY 1800
+STRINGLN
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','6.Check_User_Admin_group.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/A.Admin_User_Create_Delete/6.Check_User_Admin_group.ps1' -o $dst
+Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+END_STRINGLN
 ENTER
