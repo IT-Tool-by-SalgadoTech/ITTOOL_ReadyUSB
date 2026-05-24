@@ -4,6 +4,6 @@ $dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTO
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
 curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/B.Networks/B.Port3389_REMOTE_DESKTOP/B.Open_close_port_3389_Opt1/86.Activate_3389_port.ps1' -o $dst
-Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',$dst)
+& $dst
 END_STRINGLN
 ENTER
