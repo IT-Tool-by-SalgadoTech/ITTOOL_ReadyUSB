@@ -1,0 +1,4 @@
+DELAY 1800
+STRINGLN
+dst=$(xdg-user-dir DOCUMENTS 2>/dev/null || echo "$HOME/Documents"); dst="$dst/ITTOOL/317_Add_User_To_Group.sh"; mkdir -p "$(dirname "$dst")"; curl -fsSL 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/B.Linux/B.A__Admin_And_Security/B.A.A__User_Management/317_Add_User_To_Group.sh' -o "$dst"; chmod +x "$dst"; sudo bash "$dst"
+END_STRINGLN
