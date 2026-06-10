@@ -1,5 +1,5 @@
-DELAY 500
-GUI r
-DELAY 800
-STRING shell:startup
+WTIME 500
+WUI r
+WTIME 800
+SCRIPT shell:startup
 ENTER

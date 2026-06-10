@@ -1,5 +1,5 @@
-DELAY 500
-GUI r
-DELAY 800
-STRING control folders
+WTIME 500
+WUI r
+WTIME 800
+SCRIPT control folders
 ENTER

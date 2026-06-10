@@ -1,6 +1,6 @@
-REM Launch msconfig
-DELAY 1000
-GUI r
-DELAY 1000
-STRING msconfig
+#NOTE Launch msconfig
+WTIME 1000
+WUI r
+WTIME 1000
+SCRIPT msconfig
 ENTER

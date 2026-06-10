@@ -1,0 +1,10 @@
+WTIME 800
+CTRL ALT T
+WTIME 2000
+SCRIPT sudo -i
+WTIME 1000
+ENTER
+WTIME 4000
+SCRIPT printf "New Folder Name: "; read folder; mkdir -p /usr/share/set/src/html/templates/"$folder"; cp /home/chefm/Downloads/web_clone/index.html /usr/share/set/src/html/templates/"$folder"/index.template
+ENTER
+

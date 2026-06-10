@@ -1,3 +1,3 @@
-DELAY 4000
-STRING fsutil volume list
+WTIME 4000
+SCRIPT fsutil volume list
 ENTER

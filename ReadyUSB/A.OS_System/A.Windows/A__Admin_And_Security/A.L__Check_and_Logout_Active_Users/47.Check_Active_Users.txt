@@ -1,3 +1,3 @@
-DELAY 1500
-STRING query user
+WTIME 1500
+SCRIPT query user
 ENTER 

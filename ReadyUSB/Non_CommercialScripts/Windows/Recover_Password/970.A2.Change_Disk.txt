@@ -1,0 +1,5 @@
+WTIME 1000
+SCRIPT set /p u=Enter the Disk letter: & %u%:
+WTIME 2000
+ENTER 
+

@@ -1,6 +1,6 @@
-REM Launch lusrmgr
-DELAY 1000
-GUI r
-DELAY 1000
-STRING secpol.msc
+#NOTE Launch lusrmgr
+WTIME 1000
+WUI r
+WTIME 1000
+SCRIPT secpol.msc
 ENTER

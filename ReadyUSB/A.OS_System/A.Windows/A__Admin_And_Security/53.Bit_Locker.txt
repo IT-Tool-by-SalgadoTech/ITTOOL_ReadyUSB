@@ -1,17 +1,17 @@
-REM Abre Panel de control y navega a BitLocker por TAB
-DELAY 1000
-GUI r
-DELAY 800
-STRING control
+#NOTE Abre Panel de control y navega a BitLocker por TAB
+WTIME 1000
+WUI r
+WTIME 800
+SCRIPT control
 ENTER
-DELAY 800
+WTIME 800
 TAB
 TAB
 ENTER
-DELAY 800
+WTIME 800
 TAB
 REPEAT 20
 TAB
-DELAY 800
+WTIME 800
 ENTER
 

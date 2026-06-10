@@ -1,0 +1,4 @@
+WTIME 800
+SCRIPT cd Desktop; cd wifi_pentest
+WTIME 1800
+ENTER

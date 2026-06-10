@@ -1,6 +1,6 @@
-REM Apps
-DELAY 1000
-GUI r
-DELAY 1000
-STRING ms-settings:appsfeatures
+#NOTE Apps
+WTIME 1000
+WUI r
+WTIME 1000
+SCRIPT ms-settings:appsfeatures
 ENTER

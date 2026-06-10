@@ -1,0 +1,3 @@
+WTIME 1000
+SCRIPT usermod -aG dialout $USER
+ENTER

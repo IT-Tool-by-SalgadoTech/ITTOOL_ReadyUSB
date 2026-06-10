@@ -1,7 +1,7 @@
-DELAY 1000
-STRING cd "$env:USERPROFILE\Desktop"
-DELAY 1000
+WTIME 1000
+SCRIPT cd "$env:USERPROFILE\Desktop"
+WTIME 1000
 ENTER
-DELAY 1500
-STRING python .\Folder_tree.py
+WTIME 1500
+SCRIPT python .\Folder_tree.py
 ENTER

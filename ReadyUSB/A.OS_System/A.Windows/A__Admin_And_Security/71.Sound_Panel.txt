@@ -1,6 +1,6 @@
-REM Launch mmsys
-DELAY 1000
-GUI r
-DELAY 800
-STRING mmsys.cpl
+#NOTE Launch mmsys
+WTIME 1000
+WUI r
+WTIME 800
+SCRIPT mmsys.cpl
 ENTER

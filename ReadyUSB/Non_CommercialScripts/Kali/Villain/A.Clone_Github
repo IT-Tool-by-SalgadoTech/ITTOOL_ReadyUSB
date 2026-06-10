@@ -1,5 +1,0 @@
-DELAY 1000
-CTRL ALT T
-DELAY 2000
-STRING git clone https://github.com/t3l3machus/Villain.git; cd Villain; chmod +x Villain.py; ls 
-ENTER

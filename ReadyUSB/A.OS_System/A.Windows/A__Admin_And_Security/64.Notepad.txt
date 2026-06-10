@@ -1,6 +1,6 @@
-REM Launch notepad
-DELAY 1000
-GUI r
-DELAY 800
-STRING notepad
+#NOTE Launch notepad
+WTIME 1000
+WUI r
+WTIME 800
+SCRIPT notepad
 ENTER

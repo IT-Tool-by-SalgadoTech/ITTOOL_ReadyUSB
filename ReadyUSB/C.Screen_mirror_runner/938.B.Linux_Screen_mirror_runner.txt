@@ -1,0 +1,9 @@
+WTIME 1800
+SCRIPT curl -L https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/IT_Mirror.py -o ~/Desktop/IT_Mirror.py
+ENTER
+WTIME 3000
+SCRIPT pip3 install pygame pyserial --break-system-packages --quiet
+ENTER
+WTIME 8000
+SCRIPT python3 ~/Desktop/IT_Mirror.py
+ENTER

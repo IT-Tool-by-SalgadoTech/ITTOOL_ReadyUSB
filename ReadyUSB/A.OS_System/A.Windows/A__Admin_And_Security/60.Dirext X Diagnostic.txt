@@ -1,6 +1,6 @@
-REM Launch dxdiag
-DELAY 1000
-GUI r
-DELAY 1000
-STRING dxdiag
+#NOTE Launch dxdiag
+WTIME 1000
+WUI r
+WTIME 1000
+SCRIPT dxdiag
 ENTER
