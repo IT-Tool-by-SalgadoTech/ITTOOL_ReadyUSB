@@ -1,3 +1,0 @@
-WTIME 1500
-SCRIPT ssh ("{0}@{1}" -f (Read-Host "Enter the SSH username"), (Read-Host "Enter the IP address or hostname"))
-ENTER

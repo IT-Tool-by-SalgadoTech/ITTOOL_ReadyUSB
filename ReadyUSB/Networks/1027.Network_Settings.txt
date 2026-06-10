@@ -1,6 +1,0 @@
-#NOTE Open Windows Network Settings
-WTIME 500
-WUI r
-WTIME 800
-SCRIPT ms-settings:network
-ENTER

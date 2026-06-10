@@ -1,7 +1,0 @@
-DELAY 1000
-STRING cd "$env:USERPROFILE\Desktop"
-DELAY 1000
-ENTER
-DELAY 1500
-STRING python .\Folder_tree.py
-ENTER

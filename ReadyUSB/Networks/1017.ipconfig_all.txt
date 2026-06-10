@@ -1,4 +1,0 @@
-#NOTE Ejecutar ipconfig /all con espera extendida
-WTIME 1500
-SCRIPT ipconfig /all
-ENTER
