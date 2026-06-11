@@ -1,5 +1,5 @@
-ReadyUSB/A.ReadyUsb_ManualPDF_Windows.txt
-ReadyUSB/B.ReadyUsb_ManualPDF_Linux.txt
+ReadyUSB/A.ITTOOL_Manual_WIndows.txt
+ReadyUSB/B.ITTOOL_Manual_WIndows_Linux.txt
 ReadyUSB/A.OS_System/1.Powershell_Admin.txt
 ReadyUSB/A.OS_System/2.Terminal_sudo_-i.txt
 ReadyUSB/A.OS_System/3.Powershell.txt
@@ -628,8 +628,8 @@ ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/623.C.Install_Numpy.txt
 ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/624.C.Install_pygame_pyserial.txt
 ReadyUSB/D.IT_Angel/627.A.WIndows_IT_Angel_runner.txt
 ReadyUSB/D.IT_Angel/628.B.Linux_IT_Angel_runner.txt
-ReadyUSB/E.Login_and_Web_Saver/629.A.Windows_Login_and_Web_Saver.txt
-ReadyUSB/E.Login_and_Web_Saver/630.B.Linux_Login_and_Web_Saver.txt
+ReadyUSB/E.IT_WEBs_Login/629.A.Windows_Login_and_Web_Saver.txt
+ReadyUSB/E.IT_WEBs_Login/630.B.Linux_Login_and_Web_Saver.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/A.Open_setoolkit kali.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/B.Save_HTML_clones.txt
 ReadyUSB/Non_CommercialScripts/Kali/Setoolkit_Kali/C.Save_the _clone_on_Templates.txt
