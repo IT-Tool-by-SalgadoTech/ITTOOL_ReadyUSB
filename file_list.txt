@@ -1,5 +1,5 @@
-ReadyUSB/A.ITTOOL_Manual_WIndows.txt
-ReadyUSB/B.ITTOOL_Manual_WIndows_Linux.txt
+ReadyUSB/A.ITTOOL_Manual_Windows.txt
+ReadyUSB/B.ITTOOL_Manual_Linux.txt
 ReadyUSB/A.OS_System/1.Powershell_Admin.txt
 ReadyUSB/A.OS_System/2.Terminal_sudo_-i.txt
 ReadyUSB/A.OS_System/3.Powershell.txt
