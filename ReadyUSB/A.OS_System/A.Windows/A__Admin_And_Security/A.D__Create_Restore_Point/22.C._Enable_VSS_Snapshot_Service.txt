@@ -3,6 +3,6 @@ SCRIPTL
 $dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','22.C._Enable_VSS_Snapshot_Service.ps1')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
-curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/A.Admin_And_Security/D.Create_Restore_Point/22.C._Enable_VSS_Snapshot_Service.ps1' -o $dst
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/22.C._Enable_VSS_Snapshot_Service.ps1' -o $dst
 & $dst
 FIN_SCRIPTL

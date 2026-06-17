@@ -3,6 +3,6 @@ SCRIPTL
 $dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','232.startup_View_startup_programs.ps1')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
-curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/A.OS_System/A.Windows/E.%20Monitoring/232.startup_View_startup_programs.ps1' -o $dst
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/E__Monitoring/234.startup_View_startup_programs.ps1' -o $dst
 & $dst
 FIN_SCRIPTL
