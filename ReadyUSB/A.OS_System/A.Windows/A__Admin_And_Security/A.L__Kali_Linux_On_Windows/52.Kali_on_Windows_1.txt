@@ -1,0 +1,9 @@
+WTIME 1800
+SCRIPTL
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','Kali_on_Windows.py')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/Kali_on_Windows.py' -o $dst
+Set-Location $dir
+python .\Kali_on_Windows.py
+FIN_SCRIPTL

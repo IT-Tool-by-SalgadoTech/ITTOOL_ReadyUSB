@@ -1,0 +1,9 @@
+WTIME 1800
+SCRIPTL
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','cr.py')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/raw/refs/heads/main/cr.py' -o $dst
+Set-Location $dir
+python .\cr.py
+FIN_SCRIPTL
