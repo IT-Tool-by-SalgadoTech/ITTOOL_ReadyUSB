@@ -1,3 +1,3 @@
 WTIME 500
-SCRIPT date /T && time /T
+SCRIPT Get-Date -Format "ddd dd/MM/yyyy"; Get-Date -Format "HH:mm"
 ENTER
