@@ -4,9 +4,8 @@ ReadyUSB/A.OS_System/1.Powershell_Admin.txt
 ReadyUSB/A.OS_System/2.Terminal_sudo_-i.txt
 ReadyUSB/A.OS_System/3.Powershell.txt
 ReadyUSB/A.OS_System/4.Linux_Terminal.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/53.Apps.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/54.BIOS.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/55.Bit_Locker.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/54.Apps.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/55.BIOS.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/56.Calculator.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/57.Check_ram.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/58.Control_panel.txt
@@ -26,172 +25,173 @@ ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/71.Restore_Service_Key.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/72.Shutdown_pc.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/73.Sound_Panel.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/74.System configuration.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/75.System_ImageWindows_Repair.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/76.System_properties.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/77.Task_Manager.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/78.Taskkill.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/5.Change_password_account.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/6.Check_User_Admin_group.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/7.Create_admin.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/8.Delete_Admin_Account.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/10.Bluetooth_SwiftPair_Permises.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/11.Close_Persistent_File.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/12.Gpedit_Local_Group_Policy_Editor.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/13.Local Security Policy.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/14.Services.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/15.Windows Defender Firewall.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/9.Apps_And_Locations.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/16.FontColorPowershell.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/17.FontColorPowershell2.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/18.FontColorReset.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/19.ResetPowershell.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/20.A. System_restore_rstrui.exe.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/21.B._Enable_SystemProtection.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/22.C._Enable_VSS_Snapshot_Service.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/23.D._Check_protection_status_on_all_units.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/24.E._RestoreFreqUnlock.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/25.F._CheckRestoreFreq.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/26.G._Create_a_restore_point.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D__Create_Restore_Point/27.H._RestoreFreqLock.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__Local_User_Create_Delete/28.A._New_Local_User.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__Local_User_Create_Delete/29.B._Delete_Local_User.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__Local_User_Create_Delete/30.C._Check_User_Admin__group.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.F_Close_All_Interface_App/31.Close_app_with_open_interface-1.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.F_Close_All_Interface_App/32.Close_app_with_open_interface-2.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/38.Disable_USB_storage.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/39.Enable_USB_storage.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/40.USB_Detection.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.A__Lock_USB/33.Check_USB_Status.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.A__Lock_USB/34.Lock_usb.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.A__Lock_USB/35.Unlock_usb.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.B__USB_Seurity_Block/36.USB_Seurity_Block.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.B__USB_Seurity_Block/37.USB_Seurity_Restore.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.H__System_Logs/41.-MaxEvents_20.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.H__System_Logs/42.-Newest_20.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.H__System_Logs/43.-Newest_50_Desktop_File_Download.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.H__System_Logs/44.EntryType_Error_-Newest_10.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.H__System_Logs/45.Service_control_Manager_-Newest_5.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.I__Toggle_VMwareservises/46.Toggle-VMwareservises_Download_PS1.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.J__Check_and_Logout_Active_Users/47.Check_Active_Users.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.J__Check_and_Logout_Active_Users/48.Check_Active_Users_and_Logout.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.K__Telemetry/49.Check_Tememetry.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.K__Telemetry/50.Telemetry_Change.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.L__Kali_Linux_On_Windows/51.Delete_WSL.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.L__Kali_Linux_On_Windows/52.Kali_on_Windows_1.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/101.ARP (Address Resolution Protocol).txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/102.Available-wifi-signals.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/103.BackDoors_Risk.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/104.Clear the DNS cache.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/105.Firewall.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/106.Internet Properties.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/107.IP_Easy_By_SalgadoTech.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/108.IP_Identifique.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/109.IP_Private_And_Public.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/110.ipconfig.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/111.ipconfig_all.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/112.IPv4-classic-config.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/113.IPv4-manual-settings.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/114.ipv6_interfaces.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/115.Listening network connections. -ab.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/116.Listening network connections. Ports-ID Process.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/117.Listening network connections. Ports.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/118.MAC and adapters.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/119.Network conections.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/120.Network_Band_2.4o_5Ghz.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/121.Network_Settings.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/122.OpenConections.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/123.OpenConections_WithPorts.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/124.OpenPort_PublicOrPrivate.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/125.Ping.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/126.Remote Desktop Conections.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/127.Remote_ports_activity.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/128.Show_WiFi_Driver.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/129.Simulated_Listen_Port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/130.Tracert.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/131.What_process_use_a_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/132.Wi-Fi_Off.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/133.Wi-Fi_On.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/134.WI_FI_password.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/83.Check_acssess_to_a_local_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/84.Check_if_a_port_has_a_rule.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/85.Set_a_port_to_listen.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.A__Ports1/79.Close_a_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.A__Ports1/80.Open_a_Port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.B__Ports2/81.Close_a_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.B__Ports2/82.Open_a_Port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.A__NetFirewallRules for 3389/86.Create_the_rule_to_allow_port_3389_(RDP).txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.A__NetFirewallRules for 3389/87.Remove_the_rule_to_allow_port_3389_(RDP).txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.B__Open_close_port_3389_Opt1/88.Activate_3389_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.B__Open_close_port_3389_Opt1/89.Close_3389_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.C__Open_close_port_3389_Opt2/90.Close_3389_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.C__Open_close_port_3389_Opt2/91.Open_3389_port.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.C__Bluetooth/92.Bluetooth_Off.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.C__Bluetooth/93.Bluetooth_On.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.C__Bluetooth/94.Bluetooth_SwiftPair_Permises.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.A__PC_Control/95.SSH conection.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/100.E.Check_SSH_is_listening.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/96.A.Enable_SSH_Server.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/97.B.Activate_and_start_SSH.txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/98.C.Change_network__public_to_private..txt
-ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/99.D.Enable_Ping_rule.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/170.analyze and repair system files_sfc_scan.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/171.appdata_folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/172.Credentials manager.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/173.Delete_Repeat_Files_And_Folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/174.Empty content any folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/175.Empty Temp-Folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/176.Empty trash.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/177.Encrypt_Decrypt_Files.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/178.File encryption.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/179.File_Explorer_Option.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/180.Hash_Maker.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/181.Hide hidden files and folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/182.Localhost_Folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/183.Number files with $path.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/184.Open_disk_C.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/185.Program_files_folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/186.Share_a_folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/187.Shared_folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/188.Show hidden files and folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/189.Startup_Folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/190.Temp_folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/191.User_folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/192.Users_folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/135.A. SAME PC FILES-FIRSTTIME.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/136.B. LOCAL A EXTERNO-FIRST-TIME.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/137.C. EXTERNO A LOCAL_FIRST-TIME.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/138.D. SAME PC FILES-E.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/139.E. LOCAL A EXTERNO_E.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/140.F. EXTERNO A LOCAL_E.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/141.G. SAME PC FILES-MIR.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/142.H. LOCAL A EXTERNO_MIR.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/143.I. EXTERNO A LOCAL_MIR.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.A__Files/144.A. Ativate_attributes_from_a_file.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.A__Files/145.B. Remove_attributes_from_a_file.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/146.A. Activate_attributes folder and sub folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/147.B. Remove_attributes folder and sub folders.txt.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/148.C. Activate_ Read_Only_folder and sub folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/149.D. Activate_ Hidden_folder_and_sub_folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/150.CapitalLettersOnFiles.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/151.DeleteLettersOnFile.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/152.DeleteNumbersOnFile.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/153.LettersOnFiles.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/154.NumbersOnFiles.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.D__ZIP_Options/155.A. ZipFiles from a folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.D__ZIP_Options/156.B. Zip all content from and file in one zip.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.D__ZIP_Options/157.C. Zip Files, folders and sub folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/158.A. Create a shared folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/159.B. Delete a shared folder.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/160.C. Create a shared folder-full access.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/161.D. Zip Files, folders and sub folders.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/162.E. Delete a shared folder-full access.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/163.F. Create_shared_Folder_Select_User.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/164.G.Map_network_drive.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.F__NTFS/165.DisableAccessTimeUpd.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.F__NTFS/166.EnableAccessTimeUpdate.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.F__NTFS/167.SystemManagedAccessTime.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.G_Index_Tree/168.A.Download_.PyDocument.txt
-ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.G_Index_Tree/169.B.Run.PyDocument.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/75.System_properties.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/76.Task_Manager.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/77.Taskkill.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/10.Change_password_account.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/11.Check_User_Admin_group.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/12.Create_admin.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/13.Delete_Admin_Account.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/A.A.A__Check_and_Logout_Active_Users/5.Check_Active_Users.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/A.A.A__Check_and_Logout_Active_Users/6.Check_Active_Users_and_Logout.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/A.A.B__Local_User_Create_Delete/7.A._New_Local_User.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/A.A.B__Local_User_Create_Delete/8.B._Delete_Local_User.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.A__Admin_User_Create_Delete/A.A.B__Local_User_Create_Delete/9.C._Check_User_Admin__group.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/27.Apps_And_Locations.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/28.Bluetooth_SwiftPair_Permises.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/29.Close_Persistent_File.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/30.Gpedit_Local_Group_Policy_Editor.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/31.Local Security Policy.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/32.Services.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/33.System_ImageWindows_Repair.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/34.Windows Defender Firewall.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/14.A. System_restore_rstrui.exe.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/15.B._Enable_SystemProtection.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/16.C._Enable_VSS_Snapshot_Service.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/17.D._Check_protection_status_on_all_units.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/18.E._RestoreFreqUnlock.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/19.F._CheckRestoreFreq.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/20.G._Create_a_restore_point.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.A__Create_Restore_Point/21.H._RestoreFreqLock.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.B__System_Logs/22.-MaxEvents_20.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.B__System_Logs/23.-Newest_20.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.B__System_Logs/24.-Newest_50_Desktop_File_Download.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.B__System_Logs/25.EntryType_Error_-Newest_10.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.B__Firewall_and_Security/A.B.B__System_Logs/26.Service_control_Manager_-Newest_5.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/35.FontColorPowershell.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/36.FontColorPowershell2.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/37.FontColorReset.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powershell/38.ResetPowershell.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.F_Close_All_Interface_App/39.Close_app_with_open_interface-1.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.F_Close_All_Interface_App/40.Close_app_with_open_interface-2.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/46.Disable_USB_storage.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/47.Enable_USB_storage.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/48.USB_Detection.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.A__Lock_USB/41.Check_USB_Status.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.A__Lock_USB/42.Lock_usb.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.A__Lock_USB/43.Unlock_usb.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.B__USB_Seurity_Block/44.USB_Seurity_Block.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__USB/A.G.B__USB_Seurity_Block/45.USB_Seurity_Restore.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.I__Toggle_VMwareservises/49.Toggle-VMwareservises_Download_PS1.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.K__Telemetry/50.Check_Tememetry.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.K__Telemetry/51.Telemetry_Change.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.L__Kali_Linux_On_Windows/52.Delete_WSL.txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.L__Kali_Linux_On_Windows/53.Kali_on_Windows_1.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/100.ARP (Address Resolution Protocol).txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/101.Available-wifi-signals.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/102.BackDoors_Risk.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/103.Clear the DNS cache.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/104.Firewall.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/105.Internet Properties.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/106.IP_Easy_By_SalgadoTech.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/107.IP_Identifique.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/108.IP_Private_And_Public.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/109.ipconfig.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/110.ipconfig_all.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/111.IPv4-classic-config.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/112.IPv4-manual-settings.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/113.ipv6_interfaces.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/114.Listening network connections. -ab.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/115.Listening network connections. Ports-ID Process.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/116.Listening network connections. Ports.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/117.MAC and adapters.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/118.Network conections.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/119.Network_Band_2.4o_5Ghz.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/120.Network_Settings.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/121.OpenConections.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/122.OpenConections_WithPorts.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/123.OpenPort_PublicOrPrivate.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/124.Ping.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/125.Remote Desktop Conections.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/126.Remote_ports_activity.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/127.Show_WiFi_Driver.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/128.Simulated_Listen_Port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/129.Tracert.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/130.What_process_use_a_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/131.Wi-Fi_Off.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/132.Wi-Fi_On.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/133.WI_FI_password.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/82.Check_acssess_to_a_local_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/83.Check_if_a_port_has_a_rule.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/84.Set_a_port_to_listen.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.A__Ports1/78.Close_a_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.A__Ports1/79.Open_a_Port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.B__Ports2/80.Close_a_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.A__FirewallRules_universal_port/B.A.B__Ports2/81.Open_a_Port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.A__NetFirewallRules for 3389/85.Create_the_rule_to_allow_port_3389_(RDP).txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.A__NetFirewallRules for 3389/86.Remove_the_rule_to_allow_port_3389_(RDP).txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.B__Open_close_port_3389_Opt1/87.Activate_3389_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.B__Open_close_port_3389_Opt1/88.Close_3389_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.C__Open_close_port_3389_Opt2/89.Close_3389_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.B__Port3389_REMOTE_DESKTOP/B.B.C__Open_close_port_3389_Opt2/90.Open_3389_port.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.C__Bluetooth/91.Bluetooth_Off.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.C__Bluetooth/92.Bluetooth_On.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.C__Bluetooth/93.Bluetooth_SwiftPair_Permises.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.A__PC_Control/94.SSH conection.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/95.A.Enable_SSH_Server.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/96.B.Activate_and_start_SSH.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/97.C.Change_network__public_to_private..txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/98.D.Enable_Ping_rule.txt
+ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/99.E.Check_SSH_is_listening.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/169.analyze and repair system files_sfc_scan.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/170.appdata_folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/171.Credentials manager.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/172.Delete_Repeat_Files_And_Folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/173.Empty content any folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/174.Empty Temp-Folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/175.Empty trash.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/176.Encrypt_Decrypt_Files.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/177.File encryption.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/178.File_Explorer_Option.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/179.Hash_Maker.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/180.Hide hidden files and folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/181.Localhost_Folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/182.Number files with $path.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/183.Open_disk_C.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/184.Program_files_folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/185.Share_a_folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/186.Shared_folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/187.Show hidden files and folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/188.Startup_Folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/189.Temp_folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/190.User_folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/191.Users_folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/134.A. SAME PC FILES-FIRSTTIME.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/135.B. LOCAL A EXTERNO-FIRST-TIME.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/136.C. EXTERNO A LOCAL_FIRST-TIME.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/137.D. SAME PC FILES-E.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/138.E. LOCAL A EXTERNO_E.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/139.F. EXTERNO A LOCAL_E.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/140.G. SAME PC FILES-MIR.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/141.H. LOCAL A EXTERNO_MIR.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/142.I. EXTERNO A LOCAL_MIR.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.A__Files/143.A. Ativate_attributes_from_a_file.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.A__Files/144.B. Remove_attributes_from_a_file.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/145.A. Activate_attributes folder and sub folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/146.B. Remove_attributes folder and sub folders.txt.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/147.C. Activate_ Read_Only_folder and sub folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.B__Modify attributes of all files in a folder/C.B.B__Folders and subfolders/148.D. Activate_ Hidden_folder_and_sub_folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/149.CapitalLettersOnFiles.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/150.DeleteLettersOnFile.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/151.DeleteNumbersOnFile.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/152.LettersOnFiles.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.C__Numbering/153.NumbersOnFiles.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.D__ZIP_Options/154.A. ZipFiles from a folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.D__ZIP_Options/155.B. Zip all content from and file in one zip.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.D__ZIP_Options/156.C. Zip Files, folders and sub folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/157.A. Create a shared folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/158.B. Delete a shared folder.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/159.C. Create a shared folder-full access.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/160.D. Zip Files, folders and sub folders.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/161.E. Delete a shared folder-full access.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/162.F. Create_shared_Folder_Select_User.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.E__Share-folders/163.G.Map_network_drive.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.F__NTFS/164.DisableAccessTimeUpd.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.F__NTFS/165.EnableAccessTimeUpdate.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.F__NTFS/166.SystemManagedAccessTime.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.G_Index_Tree/167.A.Download_.PyDocument.txt
+ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.G_Index_Tree/168.B.Run.PyDocument.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/200.Bit_Locker.txt
 ReadyUSB/A.OS_System/A.Windows/D__Storage/201.Check free space (universal with $drive).txt
 ReadyUSB/A.OS_System/A.Windows/D__Storage/202.Check mount points.txt
 ReadyUSB/A.OS_System/A.Windows/D__Storage/203.Disk Cleanup.txt
@@ -199,14 +199,14 @@ ReadyUSB/A.OS_System/A.Windows/D__Storage/204.Disk Manager.txt
 ReadyUSB/A.OS_System/A.Windows/D__Storage/205.FormatDisk.txt
 ReadyUSB/A.OS_System/A.Windows/D__Storage/206.View drive info (universal with $drive).txt
 ReadyUSB/A.OS_System/A.Windows/D__Storage/207.View file system type.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/199.DeleteSimpleAndRAIDVolume.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/200.DeleteSpannedVolume.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.A.__Fast Process/193.CreateVolume.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/194.A. Disk-Raw&PoolReady.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/195.B. StartStorageSpace.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/196.C.SIMPLE VOLUME.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/197.D. SPANNED VOLUME.txt
-ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/198.E. Raid 0,1,5.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/198.DeleteSimpleAndRAIDVolume.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/199.DeleteSpannedVolume.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.A.__Fast Process/192.CreateVolume.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/193.A. Disk-Raw&PoolReady.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/194.B. StartStorageSpace.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/195.C.SIMPLE VOLUME.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/196.D. SPANNED VOLUME.txt
+ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/197.E. Raid 0,1,5.txt
 ReadyUSB/A.OS_System/A.Windows/E__Monitoring/208.About Windows.txt
 ReadyUSB/A.OS_System/A.Windows/E__Monitoring/209.Battery_Report.txt
 ReadyUSB/A.OS_System/A.Windows/E__Monitoring/210.Check USB storage status.txt
