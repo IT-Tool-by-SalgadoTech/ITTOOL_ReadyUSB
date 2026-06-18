@@ -3,6 +3,6 @@ SCRIPTL
 $dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','107.IP_Private_And_Public.ps1')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
-curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/B__Networks/109.IP_Private_And_Public.ps1' -o $dst
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/B__Networks/108.IP_Private_And_Public.ps1' -o $dst
 & $dst
 FIN_SCRIPTL

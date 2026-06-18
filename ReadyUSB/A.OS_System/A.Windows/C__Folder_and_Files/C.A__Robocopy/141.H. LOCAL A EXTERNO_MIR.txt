@@ -3,6 +3,6 @@ SCRIPTL
 $dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','140.H._LOCAL_A_EXTERNO_MIR.ps1')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
-curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/142.H._LOCAL_A_EXTERNO_MIR.ps1' -o $dst
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/C__Folder_and_Files/C.A__Robocopy/141.H._LOCAL_A_EXTERNO_MIR.ps1' -o $dst
 & $dst
 FIN_SCRIPTL
