@@ -1,11 +1,9 @@
 WTIME 1800
-SCRIPT $dst="$env:USERPROFILE\Desktop\IT_Mirror.py";$raw='https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/C.Screen_mirror_runner/IT_Mirror.py';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst
-ENTER
-WTIME 2000
-WUI r
-WTIME 1000
-SCRIPT powershell
-ENTER
-WTIME 1800
-SCRIPT cd $HOME/Desktop; python .\IT_Mirror.py
-ENTER
+SCRIPTL
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','IT_Mirror.py')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/C.Screen_mirror_runner/IT_Mirror.py' -o $dst
+Set-Location $dir
+python .\IT_Mirror.py
+FIN_SCRIPTL
