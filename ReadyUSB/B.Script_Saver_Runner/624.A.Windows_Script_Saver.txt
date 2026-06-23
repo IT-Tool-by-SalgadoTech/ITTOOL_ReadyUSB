@@ -1,3 +1,13 @@
 WTIME 1800
-SCRIPT $dst="$env:TEMP\329.A.Script_Saver.ps1";$raw='https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/B.Script_Saver_Runner/624.A.Windows_Script_Saver.ps1';if(-not(Test-Path -Path (Split-Path $dst))){New-Item -ItemType Directory -Path (Split-Path $dst) -Force | Out-Null};curl.exe -L $raw -o $dst;& "$dst"
-ENTER
+SCRIPTL
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','624.A.Windows_Script_Saver.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/B.Script_Saver_Runner/624.A.Windows_Script_Saver.ps1' -o $dst
+& $dst
+FIN_SCRIPTL
+
+
+
+
+
