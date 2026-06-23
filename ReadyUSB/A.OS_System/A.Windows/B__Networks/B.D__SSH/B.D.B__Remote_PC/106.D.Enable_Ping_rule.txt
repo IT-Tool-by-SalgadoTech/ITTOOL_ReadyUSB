@@ -1,6 +1,6 @@
 WTIME 1800
 SCRIPTL
-$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','97.D.Enable_Ping_rule.ps1')
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','106.D.Enable_Ping_rule.ps1')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
 curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/B__Networks/B.D__SSH/B.D.B__Remote_PC/106.D.Enable_Ping_rule.ps1' -o $dst
