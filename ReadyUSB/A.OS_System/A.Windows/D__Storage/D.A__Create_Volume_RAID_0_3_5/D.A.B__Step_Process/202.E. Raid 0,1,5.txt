@@ -1,0 +1,8 @@
+WTIME 1800
+SCRIPTL
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','202.E._Raid_0_1_5.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/D__Storage/D.A__Create_Volume_RAID_0_3_5/D.A.B__Step_Process/202.E._Raid_0_1_5.ps1' -o $dst
+& $dst
+FIN_SCRIPTL

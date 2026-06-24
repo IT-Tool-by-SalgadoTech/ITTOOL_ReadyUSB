@@ -1,3 +1,0 @@
-WTIME 1000
-SCRIPT $wsl_Function = Read-Host "Write thw WSL Function: status, version, install, -l -v (Linux Versions)."; wsl --"$wsl_Function"
-ENTER
