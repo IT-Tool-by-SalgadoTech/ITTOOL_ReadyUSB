@@ -1,3 +1,5 @@
-DELAY 1800
-STRING echo ZHN0PSQoeGRnLXVzZXItZGlyIERPQ1VNRU5UUyAyPi9kZXYvbnVsbCB8fCBlY2hvICIkSE9NRS9Eb2N1bWVudHMiKTsgZHN0PSIkZHN0L0lUVE9PTC8zMjEuQ3JlYXRlX1N1ZG9fVXNlci5zaCI7IG1rZGlyIC1wICIkKGRpcm5hbWUgIiRkc3QiKSI7IGN1cmwgLWZzU0wgJ2h0dHBzOi8vZ2l0aHViLmNvbS9JVC1Ub29sLWJ5LVNhbGdhZG9UZWNoL1JlYWR1VVNCX1dpdGhfUFMxL3Jhdy9yZWZzL2hlYWRzL21haW4vQS5PU19TeXN0ZW0vQi5MaW51eC9CLkFfX0FkbWluX0FuZF9TZWN1cml0eS9CLkEuQV9fVXNlcl9NYW5hZ2VtZW50LzMyMS5DcmVhdGVfU3Vkb19Vc2VyLnNoJyAtbyAiJGRzdCI7IGNobW9kICt4ICIkZHN0Ijsgc3VkbyBiYXNoICIkZHN0Ig== | base64 -d | bash
+#NOTE IT-Tool - Create_Sudo_User (Linux)
+#NOTE Downloads 339.Create_Sudo_User.sh to ITTOOL in user home, 3-distro safe, runs it
+WTIME 800
+SCRIPT U="${SUDO_USER:-$USER}"; H=$(getent passwd "$U"|cut -d: -f6); D="$H/ITTOOL"; F="$D/339.Create_Sudo_User.sh"; L="https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/B.Linux/B.A__Admin_And_Security/B.A.A__User_Management/339.Create_Sudo_User.sh"; mkdir -p "$D"; command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y curl; command -v dnf >/dev/null 2>&1 && dnf install -y curl; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm curl; }; if command -v curl >/dev/null 2>&1; then curl -fsSL "$L" -o "$F"; else wget -qO "$F" "$L"; fi; chmod +x "$F"; chown "$U": "$D" "$F" 2>/dev/null; bash "$F"
 ENTER
