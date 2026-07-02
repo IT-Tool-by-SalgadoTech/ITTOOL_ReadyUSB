@@ -1,9 +1,9 @@
 WTIME 1800
 SCRIPTL
-$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','681.Live_Telemetric_Monitor.py')
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','680.Live_Telemetric_Monitor.py')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
-curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/D.IT_Angel/Fast_Defense/681.Live_Telemetric_Monitor.py' -o $dst
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/D.IT_Angel/Fast_Defense/680.Live_Telemetric_Monitor.py' -o $dst
 Set-Location $dir
-python .\681.Live_Telemetric_Monitor.py
+python .\680.Live_Telemetric_Monitor.py
 FIN_SCRIPTL
