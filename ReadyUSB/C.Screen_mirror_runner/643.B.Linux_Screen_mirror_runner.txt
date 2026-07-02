@@ -1,9 +1,5 @@
+#NOTE IT-Tool - Screen_Mirror_Runner (Linux)
+#NOTE Downloads IT_Mirror.py to ITTOOL in user home, ensures python3/pygame/pyserial, 3-distro safe, runs it
 WTIME 1800
-SCRIPT curl -L https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/C.Screen_mirror_runner/IT_Mirror.py -o ~/Desktop/IT_Mirror.py
-ENTER
-WTIME 3000
-SCRIPT pip3 install pygame pyserial --break-system-packages --quiet
-ENTER
-WTIME 8000
-SCRIPT python3 ~/Desktop/IT_Mirror.py
+SCRIPT U="${SUDO_USER:-$USER}"; H=$(getent passwd "$U"|cut -d: -f6); D="$H/ITTOOL"; F="$D/IT_Mirror.py"; L="https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/C.Screen_mirror_runner/IT_Mirror.py"; mkdir -p "$D"; command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y curl; command -v dnf >/dev/null 2>&1 && dnf install -y curl; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm curl; }; command -v python3 >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y python3 python3-pip; command -v dnf >/dev/null 2>&1 && dnf install -y python3 python3-pip; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm python python-pip; }; python3 -m pip install --break-system-packages pygame pyserial 2>/dev/null || python3 -m pip install pygame pyserial; if command -v curl >/dev/null 2>&1; then curl -fsSL "$L" -o "$F"; else wget -qO "$F" "$L"; fi; chown "$U": "$D" "$F" 2>/dev/null; python3 "$F"
 ENTER
