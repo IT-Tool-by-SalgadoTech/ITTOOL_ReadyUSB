@@ -1,0 +1,8 @@
+WTIME 1800
+SCRIPTL
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','Delete_Admin_Account.ps1')
+$dir=Split-Path $dst
+if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
+curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/D.IT_Angel/Fast_Defense/Admin_User/646.Delete_Admin_Account.ps1' -o $dst
+& $dst
+FIN_SCRIPTL
