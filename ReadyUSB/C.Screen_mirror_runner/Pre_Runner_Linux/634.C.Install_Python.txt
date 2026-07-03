@@ -1,3 +1,0 @@
-WTIME 1000
-SCRIPT apt install python3 python3-pip -y
-ENTER

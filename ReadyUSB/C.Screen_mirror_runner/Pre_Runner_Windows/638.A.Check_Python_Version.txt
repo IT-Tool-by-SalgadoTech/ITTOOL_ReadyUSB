@@ -1,4 +1,0 @@
-WTIME 1000
-SCRIPT python --version
-WTIME 1500
-ENTER

@@ -633,16 +633,6 @@ ReadyUSB/B.Script_Saver_Runner/630.A.Windows_Script_Saver.txt
 ReadyUSB/B.Script_Saver_Runner/631.B.Linux_Script_Saver.txt
 ReadyUSB/C.Screen_mirror_runner/642.A.WIndows_Screen_mirror_runner.txt
 ReadyUSB/C.Screen_mirror_runner/643.B.Linux_Screen_mirror_runner.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/632.A.Check_python_version.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/633.B.Update_System.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/634.C.Install_Python.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/635.D.Install_pygame_pyserial.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/636.E.Serial_PortPermises.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Linux/637.F..Check_ITTOOL_Conection.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/638.A.Check_Python_Version.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/639.B.Intall_Python_On_Poweshell.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/640.C.Install_Numpy.txt
-ReadyUSB/C.Screen_mirror_runner/Pre_Runner_Windows/641.C.Install_pygame_pyserial.txt
 ReadyUSB/D.IT_Angel/693.A.WIndows_IT_Angel_runner.txt
 ReadyUSB/D.IT_Angel/694.B.Linux_IT_Angel_runner.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/668.BIOS.txt
