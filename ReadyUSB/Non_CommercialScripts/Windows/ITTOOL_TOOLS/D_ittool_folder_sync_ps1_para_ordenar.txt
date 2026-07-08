@@ -1,6 +1,0 @@
-WTIME 1000
-SCRIPT cd $HOME\Desktop\ITTOOL_TOOLS
-ENTER
-WTIME 1000
-python .\D_opcional_ittool_folder_sync_ps1_para_ordenar.py
-ENTER

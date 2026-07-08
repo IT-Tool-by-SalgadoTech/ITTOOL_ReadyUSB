@@ -1,9 +1,0 @@
-WTIME 800
-CTRL ALT T
-WTIME 2000
-SCRIPT sudo -i
-ENTER
-WTIME 2000
-SCRIPT xdg-open cd /root/.set/web_clone
-WTIME 1000
-ENTER

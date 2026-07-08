@@ -1,5 +1,0 @@
-SCRIPT powershell
-ENTER
-WTIME 500
-SCRIPT $user=Read-Host "Enter the username to delete"; net user $user /delete
-ENTER

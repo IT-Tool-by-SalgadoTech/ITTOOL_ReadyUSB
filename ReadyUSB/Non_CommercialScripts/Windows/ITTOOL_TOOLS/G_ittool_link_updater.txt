@@ -1,6 +1,0 @@
-WTIME 1000
-SCRIPT cd $HOME\Desktop\ITTOOL_TOOLS
-ENTER
-WTIME 1000
-python .\G_ittool_link_updater.py
-ENTER

@@ -1,3 +1,0 @@
-WTIME 1800
-SCRIPT Start-Process -FilePath "$PSHOME\powershell.exe" -ArgumentList @('-NoExit','-ExecutionPolicy','Bypass','-File',"$env:USERPROFILE\Desktop\UAC_On.ps1")
-ENTER
