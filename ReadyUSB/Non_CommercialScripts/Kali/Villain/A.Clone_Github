@@ -1,0 +1,5 @@
+WTIME 1000
+CTRL ALT T
+WTIME 2000
+SCRIPT git clone https://github.com/t3l3machus/Villain.git; cd Villain; chmod +x Villain.py; ls 
+ENTER

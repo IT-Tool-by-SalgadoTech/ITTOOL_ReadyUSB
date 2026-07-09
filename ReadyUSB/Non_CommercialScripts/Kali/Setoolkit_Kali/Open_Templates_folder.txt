@@ -1,0 +1,6 @@
+WTIME 800
+CTRL ALT T
+WTIME 2000
+SCRIPT sudo xdg-open /usr/share/set/src/html/templates
+WTIME 1000
+ENTER

