@@ -1,3 +1,0 @@
-WTIME 1000
-SCRIPT sudo apt install -y python3-venv python3-pip 
-ENTER
