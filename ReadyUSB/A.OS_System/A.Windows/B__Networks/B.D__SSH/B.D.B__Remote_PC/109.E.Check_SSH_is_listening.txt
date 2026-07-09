@@ -1,3 +1,0 @@
-WTIME 1500
-SCRIPT netstat -ano | findstr ":22"
-ENTER

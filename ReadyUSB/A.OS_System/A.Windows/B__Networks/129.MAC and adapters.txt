@@ -1,4 +1,0 @@
-#NOTE Ejecutar getmac /v /fo list con espera extendida
-WTIME 1500
-SCRIPT getmac /v /fo list
-ENTER

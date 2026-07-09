@@ -1,3 +1,0 @@
-WTIME 1800
-SCRIPT fsutil behavior set disablelastaccess 1
-ENTER

@@ -1,6 +1,0 @@
-#NOTE Launch gpedit
-WTIME 1000
-WUI r
-WTIME 1000
-SCRIPT gpedit.msc
-ENTER

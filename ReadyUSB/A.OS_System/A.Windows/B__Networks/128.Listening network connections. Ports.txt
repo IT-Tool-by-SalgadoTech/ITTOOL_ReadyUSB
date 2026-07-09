@@ -1,4 +1,0 @@
-#NOTE Ejecutar netstat -an con espera extendida
-WTIME 1500
-SCRIPT netstat -an
-ENTER

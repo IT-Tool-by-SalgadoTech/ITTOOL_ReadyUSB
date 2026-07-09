@@ -1,4 +1,0 @@
-WTIME 1000
-SCRIPT winget install --id Python.Python.3.13 -e --source winget --accept-source-agreements --accept-package-agreements
-WTIME 1500
-ENTER

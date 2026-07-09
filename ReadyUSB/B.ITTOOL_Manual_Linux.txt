@@ -1,5 +1,0 @@
-#NOTE IT-Tool - Welcome to ReadyUSB (Linux)
-#NOTE Downloads Manual_and_Welcome.sh from GitHub and runs it
-WTIME 800
-curl -sL "https://raw.githubusercontent.com/IT-Tool-by-SalgadoTech/ittool-External_Tools/main/Manual_and_Welcome.sh" -o /tmp/Manual_and_Welcome.sh && chmod +x /tmp/Manual_and_Welcome.sh && bash /tmp/Manual_and_Welcome.sh
-ENTER

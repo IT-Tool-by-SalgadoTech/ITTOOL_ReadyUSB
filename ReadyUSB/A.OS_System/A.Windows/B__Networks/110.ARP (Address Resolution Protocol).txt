@@ -1,4 +1,0 @@
-#NOTE Ejecutar arp -a con espera extendida
-WTIME 1500
-SCRIPT arp -a
-ENTER

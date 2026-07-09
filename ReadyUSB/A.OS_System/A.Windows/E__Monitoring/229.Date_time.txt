@@ -1,3 +1,0 @@
-WTIME 500
-SCRIPT Get-Date -Format "ddd dd/MM/yyyy"; Get-Date -Format "HH:mm"
-ENTER
