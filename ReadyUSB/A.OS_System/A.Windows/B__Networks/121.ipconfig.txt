@@ -1,0 +1,4 @@
+#NOTE Ejecutar ipconfig con espera extendida
+WTIME 1500
+SCRIPT ipconfig
+ENTER

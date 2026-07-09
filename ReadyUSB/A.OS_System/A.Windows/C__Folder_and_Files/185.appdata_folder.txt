@@ -1,0 +1,6 @@
+#NOTE Launch appdata_folder
+WTIME 1000
+WUI r
+WTIME 800
+SCRIPT %appdata%
+ENTER

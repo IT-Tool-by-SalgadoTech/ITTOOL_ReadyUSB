@@ -1,0 +1,4 @@
+WTIME 1000
+SCRIPT wsl --install Kali-Linux
+ENTER
+

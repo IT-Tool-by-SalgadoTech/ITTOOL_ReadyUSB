@@ -1,0 +1,4 @@
+#NOTE Ejecutar netsh interface ipv6 show interfaces con espera extendida
+WTIME 1500
+SCRIPT netsh interface ipv6 show interfaces
+ENTER

@@ -1,0 +1,3 @@
+WTIME 500
+SCRIPT sfc /scannow
+ENTER

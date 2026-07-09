@@ -1,0 +1,5 @@
+#NOTE IT-Tool - Make_Executable (Linux)
+#NOTE Downloads 461.Make_Executable.sh to ITTOOL in user home, 3-distro safe, runs it
+WTIME 800
+SCRIPT U="${SUDO_USER:-$USER}"; H=$(getent passwd "$U"|cut -d: -f6); D="$H/ITTOOL"; F="$D/461.Make_Executable.sh"; L="https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/B.Linux/B.C__Folder_and_Files/B.C.A__Permissions/461.Make_Executable.sh"; mkdir -p "$D"; command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y curl; command -v dnf >/dev/null 2>&1 && dnf install -y curl; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm curl; }; if command -v curl >/dev/null 2>&1; then curl -fsSL "$L" -o "$F"; else wget -qO "$F" "$L"; fi; chmod +x "$F"; chown "$U": "$D" "$F" 2>/dev/null; bash "$F"
+ENTER

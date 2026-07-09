@@ -1,0 +1,7 @@
+#NOTE Limpieza extrema del TEMP con intento de forzar eliminación
+#NOTE Tomar propiedad
+#NOTE Conceder permisos
+#NOTE Eliminar contenido
+WTIME 1500
+SCRIPT takeown /f "$env:TEMP\*" /r /d y
+ENTER

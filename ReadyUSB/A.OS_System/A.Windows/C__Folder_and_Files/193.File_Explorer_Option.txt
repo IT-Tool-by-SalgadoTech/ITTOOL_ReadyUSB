@@ -1,0 +1,5 @@
+WTIME 500
+WUI r
+WTIME 800
+SCRIPT control folders
+ENTER

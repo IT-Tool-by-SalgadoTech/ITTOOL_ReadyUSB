@@ -1,0 +1,4 @@
+#NOTE Mostrar todas las reglas del firewall como administrador
+WTIME 1000
+SCRIPT netsh advfirewall firewall show rule name=all
+ENTER

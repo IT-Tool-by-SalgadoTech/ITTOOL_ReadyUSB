@@ -1,0 +1,4 @@
+WTIME 1000
+SCRIPT sudo apt install kali-linux-default -y
+ENTER
+

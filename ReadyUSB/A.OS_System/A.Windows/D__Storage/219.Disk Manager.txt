@@ -1,0 +1,6 @@
+#NOTE Launch diskmgmt
+WTIME 1000
+WUI r
+WTIME 800
+SCRIPT diskmgmt.msc
+ENTER
