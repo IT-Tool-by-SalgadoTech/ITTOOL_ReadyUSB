@@ -1,0 +1,6 @@
+#NOTE Launch shutdown
+WTIME 1000
+WUI r
+WTIME 800
+SCRIPT shutdown -s -t 0
+ENTER

@@ -1,0 +1,6 @@
+#NOTE Abrir VirusTotal desde el menú Ejecutar (Windows + R)
+WTIME 500
+WINDOWS r
+WTIME 800
+SCRIPT https://it-tool-by-salgadotech.github.io/IP-Easy/
+ENTER

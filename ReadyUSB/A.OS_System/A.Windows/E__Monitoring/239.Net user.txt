@@ -1,0 +1,4 @@
+#NOTE Abrir CMD como administrador
+WTIME 1000
+SCRIPT net user
+ENTER

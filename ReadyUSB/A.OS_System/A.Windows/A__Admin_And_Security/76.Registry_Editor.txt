@@ -1,0 +1,8 @@
+#NOTE Launch regedit
+WTIME 1000
+WUI r
+WTIME 1000
+SCRIPT regedit
+ENTER
+WTIME 1500
+ALT y

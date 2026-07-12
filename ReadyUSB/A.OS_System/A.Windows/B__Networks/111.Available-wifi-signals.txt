@@ -1,0 +1,3 @@
+WTIME 1500
+SCRIPT netsh wlan show networks mode=bssid interface="Wi-Fi"
+ENTER

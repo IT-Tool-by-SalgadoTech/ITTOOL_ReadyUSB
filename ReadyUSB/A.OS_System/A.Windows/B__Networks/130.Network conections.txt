@@ -1,0 +1,6 @@
+#NOTE Launch ncpa
+WTIME 1000
+WUI r
+WTIME 1000
+SCRIPT ncpa.cpl
+ENTER
