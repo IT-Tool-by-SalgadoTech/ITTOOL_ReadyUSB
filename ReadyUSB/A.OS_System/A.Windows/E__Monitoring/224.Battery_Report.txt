@@ -1,4 +1,0 @@
-#NOTE Ejecutar netstat -ab desde PowerShell como administrador
-WTIME 1500
-SCRIPT powercfg /batteryreport /output "$env:USERPROFILE\Desktop\battery-report.html"
-ENTER

@@ -1,3 +1,0 @@
-WTIME 4000
-SCRIPT fsutil volume list
-ENTER

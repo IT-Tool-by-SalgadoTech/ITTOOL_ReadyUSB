@@ -1,6 +1,0 @@
-#NOTE Abrir VirusTotal desde el menú Ejecutar (Windows + R)
-WTIME 1000
-WINDOWS r
-WTIME 1000
-SCRIPT https://dnsleaktest.com/
-ENTER

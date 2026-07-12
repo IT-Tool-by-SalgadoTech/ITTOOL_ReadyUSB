@@ -1,7 +1,0 @@
-WTIME 1000
-SCRIPT nmap -p 1-65535 localhost
-ENTER
-
-
-
-

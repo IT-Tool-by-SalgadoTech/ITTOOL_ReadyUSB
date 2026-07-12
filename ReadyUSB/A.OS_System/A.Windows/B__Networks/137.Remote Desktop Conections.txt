@@ -1,6 +1,0 @@
-#NOTE Launch mstsc
-WTIME 1000
-WUI r
-WTIME 800
-SCRIPT mstsc
-ENTER

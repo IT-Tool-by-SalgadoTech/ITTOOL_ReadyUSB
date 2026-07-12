@@ -1,4 +1,0 @@
-#NOTE Ejecutar netstat -ab desde PowerShell como administrador
-WTIME 1000
-SCRIPT netstat -ab
-ENTER
