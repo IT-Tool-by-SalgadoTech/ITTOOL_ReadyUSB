@@ -640,7 +640,6 @@ ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Close_a_port_fix2.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Empty_content_any_folder.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Enable_Firewall.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Live_Telemetric_Monitor.txt
-ReadyUSB/D.IT_Angel/Fast_Defense/Linux/README.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Remove_allow_3389.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Reset_DNS.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Linux/Restart_AV_Service.txt
