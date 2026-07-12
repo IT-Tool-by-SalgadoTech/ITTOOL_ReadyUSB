@@ -1,0 +1,5 @@
+#NOTE IT-Tool - Enable system protection (Linux) - Fast Defense launcher
+#NOTE Installs deps (Debian/Fedora/Arch), downloads A._Enable_SystemProtection.sh (+ _itlib.sh) to ~/ITTOOL, runs it
+WTIME 800
+SCRIPT U="${SUDO_USER:-$USER}"; H=$(getent passwd "$U"|cut -d: -f6); D="$H/ITTOOL"; F="$D/A._Enable_SystemProtection.sh"; L="https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Create_Restore_Point/635.A._Enable_SystemProtection.ps1"; LIB="$D/_itlib.sh"; LL="https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/D.IT_Angel/Fast_Defense/Linux/_itlib.sh"; mkdir -p "$D"; command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y curl; command -v dnf >/dev/null 2>&1 && dnf install -y curl; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm curl; }; if command -v curl >/dev/null 2>&1; then curl -fsSL "$L" -o "$F"; curl -fsSL "$LL" -o "$LIB"; else wget -qO "$F" "$L"; wget -qO "$LIB" "$LL"; fi; chmod +x "$F"; chown "$U": "$D" "$F" "$LIB" 2>/dev/null; bash "$F"
+ENTER
