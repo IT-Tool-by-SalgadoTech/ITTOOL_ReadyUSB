@@ -1,6 +1,6 @@
 WTIME 1800
 SCRIPTL
-$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','Delete_WSL.ps1')
+$dst=[System.IO.Path]::Combine([Environment]::GetFolderPath('MyDocuments'),'ITTOOL','60.Delete_WSL.ps1')
 $dir=Split-Path $dst
 if(-not(Test-Path $dir)){New-Item -ItemType Directory -Path $dir -Force | Out-Null}
 curl.exe -L 'https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.G__Kali_Linux_On_Windows/60.Delete_WSL.ps1' -o $dst
