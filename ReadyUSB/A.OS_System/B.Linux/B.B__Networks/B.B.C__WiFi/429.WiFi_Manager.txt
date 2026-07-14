@@ -1,0 +1,5 @@
+#NOTE IT-Tool - WiFi_Manager_Runner (Linux)
+#NOTE Downloads 429.WiFi_Manager.py to ITTOOL in user home, 3-distro + Steam Deck safe, stdlib-only (no venv needed), runs it with python3
+WTIME 1800
+SCRIPT U="${SUDO_USER:-$USER}"; H=$(getent passwd "$U"|cut -d: -f6); D="$H/ITTOOL"; F="$D/429.WiFi_Manager.py"; L="https://github.com/IT-Tool-by-SalgadoTech/ReaduUSB_With_PS1/raw/refs/heads/main/ReadyUSB/A.OS_System/B.Linux/B.B__Networks/B.B.C__WiFi/429.WiFi_Manager.py"; mkdir -p "$D"; command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y curl; command -v dnf >/dev/null 2>&1 && dnf install -y curl; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm curl; }; command -v python3 >/dev/null 2>&1 || { command -v apt-get >/dev/null 2>&1 && apt-get install -y python3; command -v dnf >/dev/null 2>&1 && dnf install -y python3; command -v pacman >/dev/null 2>&1 && pacman -Sy --noconfirm python; }; if command -v curl >/dev/null 2>&1; then curl -fsSL "$L" -o "$F"; else wget -qO "$F" "$L"; fi; chown -R "$U": "$D" 2>/dev/null; python3 "$F"
+ENTER
