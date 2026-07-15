@@ -711,8 +711,6 @@ ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Admin_User/Change_password_account.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Admin_User/Check_Active_Users_and_Logout.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Admin_User/Create_admin.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Admin_User/Delete_Admin_Account.txt
-ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Create_Restore_Point/A._Enable_SystemProtection.TXT
-ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Create_Restore_Point/B._Enable_VSS_Snapshot_Service.TXT
 ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Create_Restore_Point/C._Check_protection_status_on_all_units.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Create_Restore_Point/D._RestoreFreqUnlock.txt
 ReadyUSB/D.IT_Angel/Fast_Defense/Windows/Create_Restore_Point/E._CheckRestoreFreq.txt
