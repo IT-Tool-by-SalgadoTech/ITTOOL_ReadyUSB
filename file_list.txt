@@ -72,7 +72,6 @@ ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.C__Font_Color_CMD_Powersh
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D_Close_All_Interface_App/43.Close_app_with_open_interface-1.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.D_Close_All_Interface_App/44.Close_app_with_open_interface-2.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__USB/45.Check_USB_Status.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__USB/46.Emergency_Lock_usb.TXT
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__USB/47.Emergency_Unlock_usb.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.E__USB/48.USB_Detection.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/A.F__Telemetry/49.Check_Tememetry.txt
