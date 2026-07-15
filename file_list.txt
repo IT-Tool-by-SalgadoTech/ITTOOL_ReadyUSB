@@ -10,7 +10,7 @@ ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/63.Calculator.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/64.Check_ram.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/65.Control_panel.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/66.Control_printers.txt
-ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/67.Data Source Administrator (64-bit).txt
+ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/67.Data Source Administrator_64-bit.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/68.Device Manager.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/69.Dirext X Diagnostic.txt
 ReadyUSB/A.OS_System/A.Windows/A__Admin_And_Security/70.Display.txt
